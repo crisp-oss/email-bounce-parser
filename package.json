@@ -1,0 +1,36 @@
+{
+  "name": "email-bounce-parser",
+  "version": "1.0.0",
+  "description": "Parses bounce emails and extract errors",
+  "author": "Eliott Vincent <eliott@crisp.chat>",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/crisp-oss/email-bounce-parser",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crisp-oss/email-bounce-parser"
+  },
+  "bugs": {
+    "url": "https://github.com/crisp-oss/email-bounce-parser/issues"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "scripts": {
+    "test": "nodeunit ./test/index.js"
+  },
+  "devDependencies": {
+    "nodeunit-x": "0.15.0"
+  },
+  "dependencies": {
+    "re2": "1.20.1"
+  },
+  "keywords": [
+    "parser",
+    "mail",
+    "email",
+    "bounce",
+    "bounces"
+  ],
+  "license": "MIT"
+}
