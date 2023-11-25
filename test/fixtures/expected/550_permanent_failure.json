@@ -1,0 +1,20 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<anton@nogew.com.mx>: host a29392b.sse.crocodilenetworks.com[105.24.214.85] said: 550 permanent failure for one or more recipients (anton@nogew.com.mx:blocked) (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": "550",
+      "label": "permanent failure for one or more recipients (anton@nogew.com.mx:blocked)",
+      "type": "message_rejected",
+      "details": {}
+    },
+    "server": {
+      "hostname": "a29392b.sse.crocodilenetworks.com",
+      "ip": "105.24.214.85",
+      "port": null
+    },
+    "command": { "command": "DATA", "end": true }
+  }
+}
