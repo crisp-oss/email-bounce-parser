@@ -41,8 +41,6 @@ function readExpected(emailFile) {
 }
 
 function testEmail(test, result, expected, entry) {
-  var email = result.email || {};
-
   test.strictEqual(result.email.body, expected.email.body);
   test.strictEqual(result.email.intro, expected.email.intro);
   test.strictEqual(result.email.error, expected.email.error);
@@ -56,8 +54,7 @@ function testEmail(test, result, expected, entry) {
   test.strictEqual(result.data.server.ip, expected.data.server.ip);
   test.strictEqual(result.data.server.port, expected.data.server.port);
 
-  test.strictEqual(result.data.command.command, expected.data.command.command);
-  test.strictEqual(result.data.command.end, expected.data.command.end);
+  test.strictEqual(result.data.command, expected.data.command);
 }
 
 module.exports = {
@@ -66,8 +63,7 @@ module.exports = {
     loopTests(
       [
         "550_permanent_failure",
-        "554_message_rejected",
-        "554_5_7_1_rejected_spam",
+
         "550_5_1_1_no_such_user",
         "550_5_1_1_no_such_user_variant_1",
         "550_5_1_1_no_such_user_variant_2",
@@ -89,6 +85,12 @@ module.exports = {
         "550_5_1_1_no_such_user_variant_18",
         "550_5_1_1_no_such_user_variant_19",
         "550_5_1_1_no_such_user_variant_20",
+        "550_5_1_1_no_such_user_variant_21",
+        "550_5_1_1_no_such_user_variant_23",
+
+
+        "554_message_rejected",
+        "554_5_7_1_rejected_spam",
       ],
 
       (result, expected, entry) => {

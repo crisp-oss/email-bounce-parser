@@ -1,0 +1,22 @@
+Uw bericht kan niet worden bezorgd bij de volgende geadresseerden of groepen:
+
+r.gelna@socav.nl<mailto:r.gelna@socav.nl>
+Het door u ingevoerde e-mailadres is niet gevonden. Controleer het e-mailadres van de geadresseerde en verzend het bericht opnieuw. Als het probleem zich blijft voordoen, neemt u contact op met de e-mailbeheerder.
+
+
+
+
+
+
+
+
+Diagnostische gegevens voor beheerders:
+
+Bronserver: ray.socav.local
+
+r.gelna@socav.nl
+Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup'
+
+Oorspronkelijke berichtkoppen:
+
+Received: from ray.socav.local (192.168.121.7) by ray.socav.local REDACTED

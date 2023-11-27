@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This message was created automatically by mail delivery software.\n\nA message that you sent could not be delivered to one or more of its recipients. This is a permanent error. The following address(es) failed:\n\nkodani@pc71-zth-95.jangehost.com (generated from john@kodani.com) LMTP error after RCPT TO:<kodani@pc71-zth-59.jangehost.com>: 550 5.1.1 <kodani@pc71-zth-59.jangehost.com> User doesn't exist: kodani@pc71-zth-59.jangehost.com",
+    "intro": "This message was created automatically by mail delivery software.\n\nA message that you sent could not be delivered to one or more of its recipients. This is a permanent error. The following address(es) failed:",
+    "error": "kodani@pc71-zth-95.jangehost.com (generated from john@kodani.com) LMTP error after RCPT TO:<kodani@pc71-zth-59.jangehost.com>: 550 5.1.1 <kodani@pc71-zth-59.jangehost.com> User doesn't exist: kodani@pc71-zth-59.jangehost.com"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "User doesn't exist: kodani@pc71-zth-59.jangehost.com",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "pc71-zth-59.jangehost.com",
+      "ip": null,
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

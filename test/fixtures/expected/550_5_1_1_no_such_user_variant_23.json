@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "Uw bericht kan niet worden bezorgd bij de volgende geadresseerden of groepen:\n\nr.gelna@socav.nl<mailto:r.gelna@socav.nl> Het door u ingevoerde e-mailadres is niet gevonden. Controleer het e-mailadres van de geadresseerde en verzend het bericht opnieuw. Als het probleem zich blijft voordoen, neemt u contact op met de e-mailbeheerder.\n\n\n\n\n\n\n\n\nDiagnostische gegevens voor beheerders:\n\nBronserver: ray.socav.local\n\nr.gelna@socav.nl Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup'\n\nOorspronkelijke berichtkoppen:\n\nReceived: from ray.socav.local (192.168.121.7) by ray.socav.local REDACTED",
+    "intro": null,
+    "error": null
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": null,
+      "ip": null,
+      "port": null
+    },
+    "command": null
+  }
+}
