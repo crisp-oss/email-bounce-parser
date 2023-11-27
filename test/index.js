@@ -44,8 +44,11 @@ function testEmail(test, result, expected, entry) {
   var email = result.email || {};
 
   test.strictEqual(result.email.body, expected.email.body);
+  test.strictEqual(result.email.intro, expected.email.intro);
+  test.strictEqual(result.email.error, expected.email.error);
 
-  test.strictEqual(result.data.error.code, expected.data.error.code);
+  test.strictEqual(result.data.error.code.basic, expected.data.error.code.basic);
+  test.strictEqual(result.data.error.code.enhanced, expected.data.error.code.enhanced);
   test.strictEqual(result.data.error.label, expected.data.error.label);
   test.strictEqual(result.data.error.type, expected.data.error.type);
 
@@ -58,11 +61,13 @@ function testEmail(test, result, expected, entry) {
 }
 
 module.exports = {
-  // Test: test
+  // Test: common
   testCommon: function(test) {
     loopTests(
       [
-        "550_permanent_failure"
+        "550_permanent_failure",
+        "554_message_rejected",
+        "554_5_7_1_rejected_spam",
       ],
 
       (result, expected, entry) => {

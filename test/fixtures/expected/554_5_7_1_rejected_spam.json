@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<agent@ranou.autos>: host mx9.emailprivate.com[189.45.120.240] said: 554 5.7.1 Rejected due to high probability of spam (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<agent@ranou.autos>: host mx9.emailprivate.com[189.45.120.240] said: 554 5.7.1 Rejected due to high probability of spam (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": "5.7.1"
+      },
+      "label": "Rejected due to high probability of spam",
+      "type": "transaction_failed",
+      "details": {}
+    },
+    "server": {
+      "hostname": "mx9.emailprivate.com",
+      "ip": "189.45.120.240",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

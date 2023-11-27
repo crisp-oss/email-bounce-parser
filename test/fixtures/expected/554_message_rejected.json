@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<miayu.goulton@tbinternet.com>: host mx.lb.tbinternet.com[123.12.96.2] said: 554 Message rejected on 2023/11/23 18:59:46 GMT, policy (3.2.1.1) ID (647543E51DFE1873) - Your message looks like SPAM or has been reported as SPAM (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<miayu.goulton@tbinternet.com>: host mx.lb.tbinternet.com[123.12.96.2] said: 554 Message rejected on 2023/11/23 18:59:46 GMT, policy (3.2.1.1) ID (647543E51DFE1873) - Your message looks like SPAM or has been reported as SPAM (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": null
+      },
+      "label": "Message rejected on 2023/11/23 18:59:46 GMT, policy (3.2.1.1) ID (647543E51DFE1873) - Your message looks like SPAM or has been reported as SPAM",
+      "type": "transaction_failed",
+      "details": {}
+    },
+    "server": {
+      "hostname": "mx.lb.tbinternet.com",
+      "ip": "123.12.96.2",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}
