@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<koonzakky@pm.me>: host mail.protonmail.ch[158.250.70.182] said: 550 5.1.1 <koonzakky@pm.me>: Recipient address rejected: Address does not exist (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<koonzakky@pm.me>: host mail.protonmail.ch[158.250.70.182] said: 550 5.1.1 <koonzakky@pm.me>: Recipient address rejected: Address does not exist (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "<koonzakky@pm.me>: Recipient address rejected: Address does not exist",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "mail.protonmail.ch",
+      "ip": "158.250.70.182",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

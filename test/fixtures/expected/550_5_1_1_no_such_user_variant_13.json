@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<hlep@cashdaily.com>: host inbound-smtp.us-west-2.amazonaws.com[53.31.136.161] said: 550 5.1.1 Requested action not taken: mailbox unavailable (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<hlep@cashdaily.com>: host inbound-smtp.us-west-2.amazonaws.com[53.31.136.161] said: 550 5.1.1 Requested action not taken: mailbox unavailable (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "Requested action not taken: mailbox unavailable",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "inbound-smtp.us-west-2.amazonaws.com",
+      "ip": "53.31.136.161",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

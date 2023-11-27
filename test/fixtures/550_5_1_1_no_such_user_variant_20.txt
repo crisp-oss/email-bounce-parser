@@ -1,0 +1,16 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<djf23gjsjf@privaterelay.appleid.com>: host
+    smtp1.privaterelay.appleid.com[17.75.125.51] said: 550 5.1.1
+    <bounces+ded1e8e71ae3e839@bitstock.on.acme.email>: unauthorized sender (in
+    reply to RCPT TO command)

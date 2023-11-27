@@ -1,0 +1,16 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia.mandez@enseignement.gouv.ch>: host
+    mx-edu.adc.education.ch[139.50.119.2] said: 550 5.1.1
+    <julia.mandez@enseignement.gouv.ch>: Recipient address rejected: User
+    unknown in relay recipient table (in reply to RCPT TO command)

@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<matanya@orange.fr>: host smtp-in.orange.fr[80.21.62.23] said: 550 5.1.1 6FdDrBrGcZfMe Adresse d au moins un destinataire invalide. Invalid recipient. OFR_416 [416] (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<matanya@orange.fr>: host smtp-in.orange.fr[80.21.62.23] said: 550 5.1.1 6FdDrBrGcZfMe Adresse d au moins un destinataire invalide. Invalid recipient. OFR_416 [416] (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "6FdDrBrGcZfMe Adresse d au moins un destinataire invalide. Invalid recipient. OFR_416 [416]",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "smtp-in.orange.fr",
+      "ip": "80.21.62.23",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<julia.mandez@enseignement.gouv.ch>: host mx-edu.adc.education.ch[139.50.119.2] said: 550 5.1.1 <julia.mandez@enseignement.gouv.ch>: Recipient address rejected: User unknown in relay recipient table (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<julia.mandez@enseignement.gouv.ch>: host mx-edu.adc.education.ch[139.50.119.2] said: 550 5.1.1 <julia.mandez@enseignement.gouv.ch>: Recipient address rejected: User unknown in relay recipient table (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "<julia.mandez@enseignement.gouv.ch>: Recipient address rejected: User unknown in relay recipient table",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "mx-edu.adc.education.ch",
+      "ip": "139.50.119.2",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

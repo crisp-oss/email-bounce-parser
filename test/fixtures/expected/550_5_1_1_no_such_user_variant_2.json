@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<support@loveastrology.com>: host smtp.secureserver.net[92.240.81.0] said: 550 5.1.1 <support@loveastrology.com> Recipient not found. <https://www.secureserver.net/help/fix-rejected-email-with-a-bounce-error-40685?pl_id=1592&prog_id=domainspricedright#irbpl_id=1592&prog_id=domainspricedright#irb> (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<support@loveastrology.com>: host smtp.secureserver.net[92.240.81.0] said: 550 5.1.1 <support@loveastrology.com> Recipient not found. <https://www.secureserver.net/help/fix-rejected-email-with-a-bounce-error-40685?pl_id=1592&prog_id=domainspricedright#irbpl_id=1592&prog_id=domainspricedright#irb> (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "<support@loveastrology.com> Recipient not found. <https://www.secureserver.net/help/fix-rejected-email-with-a-bounce-error-40685?pl_id=1592&prog_id=domainspricedright#irbpl_id=1592&prog_id=domainspricedright#irb>",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "smtp.secureserver.net",
+      "ip": "92.240.81.0",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

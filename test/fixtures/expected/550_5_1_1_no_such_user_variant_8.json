@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<client@mistas.com>: host mail.mistas.com[124.0.179.184] said: 550 5.1.1 <client@mistas.com>: Recipient address rejected: undeliverable address: host mail.servidormk.com[private/dovecot-lmtp] said: 550 5.1.1 <client@mistas.com> User doesn't exist: client@mistas.com (in reply to RCPT TO command) (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<client@mistas.com>: host mail.mistas.com[124.0.179.184] said: 550 5.1.1 <client@mistas.com>: Recipient address rejected: undeliverable address: host mail.servidormk.com[private/dovecot-lmtp] said: 550 5.1.1 <client@mistas.com> User doesn't exist: client@mistas.com (in reply to RCPT TO command) (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "<client@mistas.com>: Recipient address rejected: undeliverable address: host mail.servidormk.com[private/dovecot-lmtp] said: 550 5.1.1 <client@mistas.com> User doesn't exist: client@mistas.com (in reply to RCPT TO command)",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "mail.mistas.com",
+      "ip": "124.0.179.184",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

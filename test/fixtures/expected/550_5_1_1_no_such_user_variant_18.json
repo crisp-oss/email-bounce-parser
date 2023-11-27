@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<hazelnut@peoplemadein.co.kr>: host kr1-aspmx1.worksmobile.com[152.290.290.215] said: 550 5.1.1 No such user ldE8NzE3RyeycidQ-DBxBg - nsmtp (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<hazelnut@peoplemadein.co.kr>: host kr1-aspmx1.worksmobile.com[152.290.290.215] said: 550 5.1.1 No such user ldE8NzE3RyeycidQ-DBxBg - nsmtp (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "No such user ldE8NzE3RyeycidQ-DBxBg - nsmtp",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "kr1-aspmx1.worksmobile.com",
+      "ip": "152.290.290.215",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

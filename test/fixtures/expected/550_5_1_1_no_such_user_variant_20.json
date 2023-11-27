@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<djf23gjsjf@privaterelay.appleid.com>: host smtp1.privaterelay.appleid.com[17.75.125.51] said: 550 5.1.1 <bounces+ded1e8e71ae3e839@bitstock.on.acme.email>: unauthorized sender (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<djf23gjsjf@privaterelay.appleid.com>: host smtp1.privaterelay.appleid.com[17.75.125.51] said: 550 5.1.1 <bounces+ded1e8e71ae3e839@bitstock.on.acme.email>: unauthorized sender (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "<bounces+ded1e8e71ae3e839@bitstock.on.acme.email>: unauthorized sender",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "smtp1.privaterelay.appleid.com",
+      "ip": "17.75.125.51",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

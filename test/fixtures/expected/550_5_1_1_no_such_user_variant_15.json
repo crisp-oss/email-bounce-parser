@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<jadson@iclod.com>: host mx2.orcon.net.nz[220.108.46.270] said: 550 5.1.1 <jadson@iclod.com>: Recipient address rejected: undeliverable address: host mda.orcon.net.nz[10.245.73.6] said: 550 unknown user (in reply to RCPT TO command) (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<jadson@iclod.com>: host mx2.orcon.net.nz[220.108.46.270] said: 550 5.1.1 <jadson@iclod.com>: Recipient address rejected: undeliverable address: host mda.orcon.net.nz[10.245.73.6] said: 550 unknown user (in reply to RCPT TO command) (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "<jadson@iclod.com>: Recipient address rejected: undeliverable address: host mda.orcon.net.nz[10.245.73.6] said: 550 unknown user (in reply to RCPT TO command)",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "mx2.orcon.net.nz",
+      "ip": "220.108.46.270",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

@@ -1,0 +1,15 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<hazelnut@peoplemadein.co.kr>: host
+    kr1-aspmx1.worksmobile.com[152.290.290.215] said: 550 5.1.1 No such user
+    ldE8NzE3RyeycidQ-DBxBg - nsmtp (in reply to RCPT TO command)
