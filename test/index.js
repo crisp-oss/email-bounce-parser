@@ -86,11 +86,13 @@ module.exports = {
         "550_5_1_1_no_such_user_variant_19",
         "550_5_1_1_no_such_user_variant_20",
         "550_5_1_1_no_such_user_variant_21",
+        "550_5_1_1_no_such_user_variant_22",
         "550_5_1_1_no_such_user_variant_23",
-
+        "550_5_1_1_no_such_user_variant_24",
+        "550_5_1_1_no_such_user_variant_25",
 
         "554_message_rejected",
-        "554_5_7_1_rejected_spam",
+        "554_5_7_1_rejected_spam"
       ],
 
       (result, expected, entry) => {

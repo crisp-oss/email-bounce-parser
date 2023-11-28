@@ -1,0 +1,18 @@
+The original message was received at Thu, 23 Nov 2023 20:19:40 GMT
+from m0216107.ppops.net [127.0.0.1]
+
+   ----- The following addresses had permanent fatal errors -----
+<social-2728@social.com>
+    (reason: 550-5.1.1 The email account that you tried to reach does not exist. Please try)
+
+   ----- Transcript of session follows -----
+... while talking to aspmx.l.google.com.:
+>>> DATA
+<<< 550-5.1.1 The email account that you tried to reach does not exist. Please try
+<<< 550-5.1.1 double-checking the recipient's email address for typos or
+<<< 550-5.1.1 unnecessary spaces. Learn more at
+<<< 550 5.1.1  https://urldefense.com/v3/__https://support.google.com/mail/?p=NoSuchUser__;!!DCbAVzZNrAf4!Bsmtcs6WMpEc_8jVLdhqz_iB8KJIfswa-OeEBfWqV3l4li5LXHIeMp6o0iZa_9Au2YFDk50K4JYuoQiziEJ9E7vQDYDOCQ_h5xGg7Ri46p2AUvm-zfYezcY5Ep0$  cd8-20020a05690c088800b005b024ae94a9si626077ywb.512 - gsmtp
+550 5.1.1 <social-2728@social.com>... User unknown
+<<< 503-5.5.1 RCPT first. Please visit
+<<< 503-5.5.1  https://urldefense.com/v3/__https://support.google.com/a/answer/3221692__;!!DCbAVzZNrAf4!Bsmtcs6WMpEc_8jVLdhqz_iB8KJIfswa-OeEBfWqV3l4li5LXHIeMp6o0iZa_9Au2YFDk50K4JYuoQiziEJ9E7vQDYDOCQ_h5xGg7Ri46p2AUvm-zfYeMGPpRNY$  and review RFC 5321
+<<< 503 5.5.1 specifications for more information. cd8-20020a05690c088800b005b024ae94a9si626077ywb.512 - gsmtp

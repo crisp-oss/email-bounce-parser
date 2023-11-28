@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "** Address not found **\n\nYour message wasn't delivered to wendynunez@optiry.com because the address couldn't be found, or is unable to receive mail.\n\nLearn more here: https://support.google.com/mail/?p=NoSuchUser\n\nThe response from the remote server was:\n550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. Learn more at https://support.google.com/mail/?p=NoSuchUser az10-29348239488-9285349r8sd8gds8fdfdfg.1 - gsmtp",
+    "intro": null,
+    "error": null
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.1"
+      },
+      "label": "The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. Learn more at https://support.google.com/mail/?p=NoSuchUser az10-29348239488-9285349r8sd8gds8fdfdfg.1 - gsmtp",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": null,
+      "ip": null,
+      "port": null
+    },
+    "command": null
+  }
+}
