@@ -1,0 +1,30 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<wailin@nice.com.mm>: host mx.hamexperts.com[103.171.45.160] said: 550 no mailbox by that name is currently available (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<wailin@nice.com.mm>: host mx.hamexperts.com[103.171.45.160] said: 550 no mailbox by that name is currently available (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": null
+      },
+      "label": "no mailbox by that name is currently available",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": null
+      }
+    },
+    "recipient": "wailin@nice.com.mm",
+    "server": {
+      "hostname": "mx.hamexperts.com",
+      "ip": "103.171.45.160",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

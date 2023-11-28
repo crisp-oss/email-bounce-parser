@@ -85,6 +85,8 @@ console.log(result);
 // }
 ```
 
+Head over to `/test/fixtures/` for more bounce examples and parsing results (anonymized data).
+
 ## Contributing
 
 Feel free to fork this project and submit fixes. We may adapt your code to fit the codebase.

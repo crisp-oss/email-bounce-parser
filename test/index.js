@@ -68,6 +68,8 @@ module.exports = {
     loopTests(
       [
         "550_permanent_failure",
+        "550_not_allowed",
+        "550_mailbox_unavailable",
 
         "550_5_1_1_no_such_recipient",
         "550_5_1_1_no_such_recipient_variant_1",
@@ -99,8 +101,13 @@ module.exports = {
         "550_5_2_1_recipient_unknown",
         "550_5_2_1_account_disabled",
 
+        "550_5_7_1_spam_rejected",
+
         "554_message_rejected",
-        "554_5_7_1_rejected_spam"
+        "554_does_not_exist",
+
+        "554_5_7_1_spam_rejected",
+        "554_5_7_1_spam_rejected_variant_1"
       ],
 
       (result, expected, entry) => {

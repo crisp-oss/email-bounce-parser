@@ -1,0 +1,30 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<hangfan@zing.com>: host mxw.mxhichina.com[74.264.99.159] said: 554 RCPT (hangfan@zing.com) dosn't exist (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<hangfan@zing.com>: host mxw.mxhichina.com[74.264.99.159] said: 554 RCPT (hangfan@zing.com) dosn't exist (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": null
+      },
+      "label": "RCPT (hangfan@zing.com) dosn't exist",
+      "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": null
+      }
+    },
+    "recipient": "hangfan@zing.com",
+    "server": {
+      "hostname": "mxw.mxhichina.com",
+      "ip": "74.264.99.159",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

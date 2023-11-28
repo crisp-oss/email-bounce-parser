@@ -1,0 +1,14 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<jan@ceo-nord.dk>: host mail.protonmail.ch[158.70.24.182] said: 550 5.7.1
+    Rejected by spam filter (in reply to end of DATA command)

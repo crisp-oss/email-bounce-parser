@@ -1,0 +1,30 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<diretor@clima.com.br>: host mx.core.locaweb.com.br[177.135.32.214] said: 554 5.7.1 Spam message rejected (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<diretor@clima.com.br>: host mx.core.locaweb.com.br[177.135.32.214] said: 554 5.7.1 Spam message rejected (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": "5.7.1"
+      },
+      "label": "Spam message rejected",
+      "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "spam_content"
+      }
+    },
+    "recipient": "diretor@clima.com.br",
+    "server": {
+      "hostname": "mx.core.locaweb.com.br",
+      "ip": "177.135.32.214",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}
