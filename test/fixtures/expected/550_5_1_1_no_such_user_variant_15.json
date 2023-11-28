@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "jadson@iclod.com",
     "server": {
       "hostname": "mx2.orcon.net.nz",
       "ip": "220.108.46.270",

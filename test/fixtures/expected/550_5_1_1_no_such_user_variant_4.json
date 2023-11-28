@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "amir.kov@beta.fr",
     "server": {
       "hostname": "mx1.ovh.net",
       "ip": "198.156.73.122",

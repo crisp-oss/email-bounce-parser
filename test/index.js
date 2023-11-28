@@ -50,6 +50,8 @@ function testEmail(test, result, expected, entry) {
   test.strictEqual(result.data.error.label, expected.data.error.label);
   test.strictEqual(result.data.error.type, expected.data.error.type);
 
+  test.strictEqual(result.data.recipient, expected.data.recipient);
+
   test.strictEqual(result.data.server.hostname, expected.data.server.hostname);
   test.strictEqual(result.data.server.ip, expected.data.server.ip);
   test.strictEqual(result.data.server.port, expected.data.server.port);

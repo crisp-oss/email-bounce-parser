@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "baroka@protonmail.com",
     "server": {
       "hostname": "mail.protonmail.ch",
       "ip": "158.250.70.182",

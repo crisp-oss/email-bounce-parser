@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "wendynunez@optiry.com",
     "server": {
       "hostname": null,
       "ip": null,

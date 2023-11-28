@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "ron@bellpac.net",
     "server": {
       "hostname": "ff-ip4-mx-vip2.prodige.net",
       "ip": "144.106.195.22",

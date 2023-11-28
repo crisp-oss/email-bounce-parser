@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "elgado@atizapan.mx",
     "server": {
       "hostname": "mail.atizapan.mx",
       "ip": "25.171.290.3",

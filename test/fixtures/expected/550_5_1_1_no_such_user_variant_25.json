@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "yannja@napa365.com",
     "server": {
       "hostname": "SDL3GFG4RE30.apcprd01.prod.exchangelabs.com",
       "ip": null,

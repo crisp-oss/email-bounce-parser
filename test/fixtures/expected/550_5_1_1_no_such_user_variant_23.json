@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "r.gelna@socav.nl",
     "server": {
       "hostname": null,
       "ip": null,

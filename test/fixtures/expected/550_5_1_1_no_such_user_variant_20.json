@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "djf23gjsjf@privaterelay.appleid.com",
     "server": {
       "hostname": "smtp1.privaterelay.appleid.com",
       "ip": "17.75.125.51",

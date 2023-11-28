@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "client@mistas.com",
     "server": {
       "hostname": "mail.mistas.com",
       "ip": "124.0.179.184",

@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "support@loveastrology.com",
     "server": {
       "hostname": "smtp.secureserver.net",
       "ip": "92.240.81.0",

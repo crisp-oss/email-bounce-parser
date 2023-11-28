@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "social-2728@social.com",
     "server": {
       "hostname": "m0216107.ppops.net",
       "ip": "127.0.0.1",

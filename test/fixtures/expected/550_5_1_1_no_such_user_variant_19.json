@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "s.support@alphafx.com",
     "server": {
       "hostname": "mail.alphafx.com",
       "ip": "87.195.112.7",

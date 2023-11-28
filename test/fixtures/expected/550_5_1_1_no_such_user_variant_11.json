@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "sammey@gamil.com",
     "server": {
       "hostname": "mail.gamil.com",
       "ip": "192.225.145.171",

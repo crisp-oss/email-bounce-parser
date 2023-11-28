@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "ben@enhance.com",
     "server": {
       "hostname": "aspmx.l.google.com",
       "ip": "124.205.72.72",

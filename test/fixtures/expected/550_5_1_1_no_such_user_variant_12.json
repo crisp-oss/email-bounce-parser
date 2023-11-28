@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "pruabe@marver.com.mx",
     "server": {
       "hostname": "mail.vermar.com.mx",
       "ip": "178.254.105.203",

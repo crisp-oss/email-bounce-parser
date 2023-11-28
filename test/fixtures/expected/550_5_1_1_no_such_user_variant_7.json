@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "christo@ben-pregos.com.br",
     "server": {
       "hostname": "mx.b.locaweb.com.br",
       "ip": "167.135.32.224",

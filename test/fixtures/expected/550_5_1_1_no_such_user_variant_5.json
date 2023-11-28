@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "julia.mandez@enseignement.gouv.ch",
     "server": {
       "hostname": "mx-edu.adc.education.ch",
       "ip": "139.50.119.2",

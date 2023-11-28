@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "hazelnut@peoplemadein.co.kr",
     "server": {
       "hostname": "kr1-aspmx1.worksmobile.com",
       "ip": "152.290.290.215",

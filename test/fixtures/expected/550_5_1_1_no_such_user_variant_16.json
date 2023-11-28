@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "earb@wash.ca",
     "server": {
       "hostname": "shw-central.mx.a.cloudfilter.net",
       "ip": "51.222.199.95",

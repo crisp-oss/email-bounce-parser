@@ -15,6 +15,7 @@
       "type": "transaction_failed",
       "details": {}
     },
+    "recipient": "agent@ranou.autos",
     "server": {
       "hostname": "mx9.emailprivate.com",
       "ip": "189.45.120.240",

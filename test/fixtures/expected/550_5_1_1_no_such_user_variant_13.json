@@ -15,6 +15,7 @@
       "type": "action_not_taken",
       "details": {}
     },
+    "recipient": "hlep@cashdaily.com",
     "server": {
       "hostname": "inbound-smtp.us-west-2.amazonaws.com",
       "ip": "53.31.136.161",
