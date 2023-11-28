@@ -13,7 +13,9 @@
       },
       "label": "Address does not exist. cEM8XVXAY905",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "thomas@dynamiciptv.com",
     "server": {

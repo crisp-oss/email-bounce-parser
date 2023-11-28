@@ -13,7 +13,9 @@
       },
       "label": "No such user ldE8NzE3RyeycidQ-DBxBg - nsmtp",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "hazelnut@peoplemadein.co.kr",
     "server": {

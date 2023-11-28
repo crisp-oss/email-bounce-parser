@@ -13,7 +13,9 @@
       },
       "label": "Recipient unknown <s.support@alphafx.com>",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "s.support@alphafx.com",
     "server": {

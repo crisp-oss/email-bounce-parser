@@ -13,7 +13,9 @@
       },
       "label": "The email account that you tried to reach is inactive. Learn more at 550 5.2.1 https://support.google.com/mail/?p=DisabledUser 7-20020a508e47000000b0054864c701a3si879110edx.134 - gsmtp",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "recipient_disabled_or_recipient_rate_limited"
+      }
     },
     "recipient": "ben@enhance.com",
     "server": {

@@ -13,7 +13,9 @@
       },
       "label": "6FdDrBrGcZfMe Adresse d au moins un destinataire invalide. Invalid recipient. OFR_416 [416]",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "matanya@orange.fr",
     "server": {

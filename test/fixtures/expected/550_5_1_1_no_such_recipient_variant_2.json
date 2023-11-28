@@ -13,7 +13,9 @@
       },
       "label": "<support@loveastrology.com> Recipient not found. <https://www.secureserver.net/help/fix-rejected-email-with-a-bounce-error-40685?pl_id=1592&prog_id=domainspricedright#irbpl_id=1592&prog_id=domainspricedright#irb>",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "support@loveastrology.com",
     "server": {

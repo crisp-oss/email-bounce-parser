@@ -13,7 +13,9 @@
       },
       "label": "The email account that you tried to reach does not exist. Please try 550-5.1.1 double-checking the recipient's email address for typos or 550-5.1.1 unnecessary spaces. Learn more at 550 5.1.1 https://support.google.com/mail/?p=NoSuchUser v11-20020a170906564b00b009fd6f428f93si881612ejr.222 - gsmtp",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "sanjit@greytip.com",
     "server": {

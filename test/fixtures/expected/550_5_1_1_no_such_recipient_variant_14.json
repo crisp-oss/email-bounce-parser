@@ -13,7 +13,9 @@
       },
       "label": "<saud@icloud.com>: user does not exist",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "saud@icloud.com",
     "server": {

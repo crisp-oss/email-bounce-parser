@@ -13,7 +13,9 @@
       },
       "label": "permanent failure for one or more recipients (anton@nogew.com.mx:blocked)",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": null
+      }
     },
     "recipient": "anton@nogew.com.mx",
     "server": {

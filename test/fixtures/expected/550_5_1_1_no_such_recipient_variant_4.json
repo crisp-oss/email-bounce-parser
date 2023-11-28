@@ -13,7 +13,9 @@
       },
       "label": "<amir.kov@beta.fr>: Recipient address rejected: User unknown",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "amir.kov@beta.fr",
     "server": {

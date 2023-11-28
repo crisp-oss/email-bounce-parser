@@ -13,7 +13,9 @@
       },
       "label": "<julia.mandez@enseignement.gouv.ch>: Recipient address rejected: User unknown in relay recipient table",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "julia.mandez@enseignement.gouv.ch",
     "server": {

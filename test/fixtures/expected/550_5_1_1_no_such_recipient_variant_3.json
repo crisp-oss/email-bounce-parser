@@ -13,7 +13,9 @@
       },
       "label": "<baroka@protonmail.com>: Recipient address rejected: Address is not configured to receive emails",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "baroka@protonmail.com",
     "server": {

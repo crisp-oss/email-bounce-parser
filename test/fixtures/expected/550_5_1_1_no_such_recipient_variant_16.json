@@ -13,7 +13,9 @@
       },
       "label": "<earb@wash.ca> recipient address rejected",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "earb@wash.ca",
     "server": {

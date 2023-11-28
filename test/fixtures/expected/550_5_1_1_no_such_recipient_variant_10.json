@@ -13,7 +13,9 @@
       },
       "label": "<elgado@atizapan.mx>: Recipient address rejected: User unknown in local recipient table",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "elgado@atizapan.mx",
     "server": {

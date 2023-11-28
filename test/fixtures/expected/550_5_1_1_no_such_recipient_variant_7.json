@@ -13,7 +13,9 @@
       },
       "label": "<christo@ben-pregos.com.br>: Recipient address rejected: User unknown in virtual mailbox table",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "christo@ben-pregos.com.br",
     "server": {

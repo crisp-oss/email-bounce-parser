@@ -13,7 +13,9 @@
       },
       "label": "Rejected due to high probability of spam",
       "type": "transaction_failed",
-      "details": {}
+      "data": {
+        "type": "spam_content"
+      }
     },
     "recipient": "agent@ranou.autos",
     "server": {

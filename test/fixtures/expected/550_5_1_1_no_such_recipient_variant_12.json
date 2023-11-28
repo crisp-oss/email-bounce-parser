@@ -13,7 +13,9 @@
       },
       "label": "<pruabe@marver.com.mx>: Recipient address rejected: vermar.com.mx",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "pruabe@marver.com.mx",
     "server": {

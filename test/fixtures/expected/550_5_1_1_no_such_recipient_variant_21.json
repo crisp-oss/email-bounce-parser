@@ -13,7 +13,9 @@
       },
       "label": "User doesn't exist: kodani@pc71-zth-59.jangehost.com",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "kodani@pc71-zth-59.jangehost.com",
     "server": {

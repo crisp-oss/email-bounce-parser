@@ -13,7 +13,9 @@
       },
       "label": "RESOLVER.ADR.RecipientNotFound; Recipient yannja@napa365.com not found by SMTP address lookup",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "yannja@napa365.com",
     "server": {

@@ -13,7 +13,9 @@
       },
       "label": "The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. Learn more at https://support.google.com/mail/?p=NoSuchUser az10-29348239488-9285349r8sd8gds8fdfdfg.1 - gsmtp",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "wendynunez@optiry.com",
     "server": {

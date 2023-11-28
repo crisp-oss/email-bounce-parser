@@ -13,7 +13,9 @@
       },
       "label": "The email account that you tried to reach does not exist. Please try)",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "social-2728@social.com",
     "server": {

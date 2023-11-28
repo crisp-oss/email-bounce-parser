@@ -13,7 +13,9 @@
       },
       "label": "<admin@ipdee.com> User unknown",
       "type": "action_not_taken",
-      "details": {}
+      "data": {
+        "type": "no_such_recipient"
+      }
     },
     "recipient": "admin@ipdee.com",
     "server": {
