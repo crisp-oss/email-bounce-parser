@@ -91,6 +91,9 @@ module.exports = {
         "550_5_1_1_no_such_user_variant_24",
         "550_5_1_1_no_such_user_variant_25",
 
+        "550_5_2_1_user_unknown",
+        "550_5_2_1_account_disabled",
+
         "554_message_rejected",
         "554_5_7_1_rejected_spam"
       ],

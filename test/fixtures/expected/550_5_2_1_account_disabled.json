@@ -1,0 +1,25 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<ben@enhance.com>: host aspmx.l.google.com[124.205.72.72] said: 550-5.2.1 The email account that you tried to reach is inactive. Learn more at 550 5.2.1 https://support.google.com/mail/?p=DisabledUser 7-20020a508e47000000b0054864c701a3si879110edx.134 - gsmtp (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<ben@enhance.com>: host aspmx.l.google.com[124.205.72.72] said: 550-5.2.1 The email account that you tried to reach is inactive. Learn more at 550 5.2.1 https://support.google.com/mail/?p=DisabledUser 7-20020a508e47000000b0054864c701a3si879110edx.134 - gsmtp (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.2.1"
+      },
+      "label": "The email account that you tried to reach is inactive. Learn more at 550 5.2.1 https://support.google.com/mail/?p=DisabledUser 7-20020a508e47000000b0054864c701a3si879110edx.134 - gsmtp",
+      "type": "action_not_taken",
+      "details": {}
+    },
+    "server": {
+      "hostname": "aspmx.l.google.com",
+      "ip": "124.205.72.72",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}
