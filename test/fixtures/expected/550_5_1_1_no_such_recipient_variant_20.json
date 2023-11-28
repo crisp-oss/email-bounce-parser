@@ -13,6 +13,8 @@
       },
       "label": "<bounces+ded1e8e71ae3e839@bitstock.on.acme.email>: unauthorized sender",
       "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
       "data": {
         "type": "no_such_recipient"
       }

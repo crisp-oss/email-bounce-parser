@@ -13,6 +13,8 @@
       },
       "label": "sorry, no mailbox here by that name (#5.1.1 - chkuser)",
       "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
       "data": {
         "type": "no_such_recipient"
       }

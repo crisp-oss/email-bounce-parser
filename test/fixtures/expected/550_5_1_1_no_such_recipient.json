@@ -13,6 +13,8 @@
       },
       "label": "<koonzakky@pm.me>: Recipient address rejected: Address does not exist",
       "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
       "data": {
         "type": "no_such_recipient"
       }

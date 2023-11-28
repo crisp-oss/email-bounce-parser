@@ -13,6 +13,8 @@
       },
       "label": "<ronc6t@bellpac.net>... Addressee unknown, relay=[93.177.84.59]",
       "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
       "data": {
         "type": "recipient_disabled_or_recipient_rate_limited"
       }

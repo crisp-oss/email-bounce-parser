@@ -13,6 +13,8 @@
       },
       "label": "Message rejected on 2023/11/23 18:59:46 GMT, policy (3.2.1.1) ID (647543E51DFE1873) - Your message looks like SPAM or has been reported as SPAM",
       "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
       "data": {
         "type": null
       }

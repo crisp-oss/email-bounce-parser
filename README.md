@@ -63,8 +63,15 @@ console.log(result);
 //         enhanced: "5.1.1"
 //       },
 //       label: "<support@yipee.com> Recipient not found.",
+//
 //       type: "action_not_taken",
-//       details: {}
+//
+//       temporary: false,
+//       permanent: true,
+//
+//       data: {
+//         type: "no_such_user",
+//       }
 //     },
 //
 //     server: {

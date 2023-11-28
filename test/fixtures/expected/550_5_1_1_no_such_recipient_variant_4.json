@@ -13,6 +13,8 @@
       },
       "label": "<amir.kov@beta.fr>: Recipient address rejected: User unknown",
       "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
       "data": {
         "type": "no_such_recipient"
       }
