@@ -41,30 +41,55 @@ function readExpected(emailFile) {
 }
 
 function testEmail(test, result, expected, entry) {
-  test.strictEqual(result.email.body, expected.email.body);
-  test.strictEqual(result.email.intro, expected.email.intro);
-  test.strictEqual(result.email.error, expected.email.error);
+  test.strictEqual(result.bounce, expected.bounce);
 
-  test.strictEqual(result.data.error.code.basic, expected.data.error.code.basic);
-  test.strictEqual(result.data.error.code.enhanced, expected.data.error.code.enhanced);
-  test.strictEqual(result.data.error.label, expected.data.error.label);
-  test.strictEqual(result.data.error.type, expected.data.error.type);
-  test.strictEqual(result.data.error.temporary, expected.data.error.temporary);
-  test.strictEqual(result.data.error.permanent, expected.data.error.permanent);
-  test.strictEqual(result.data.error.data.type, expected.data.error.data.type);
-  test.strictEqual(result.data.error.data.blocked, expected.data.error.data.blocked);
-  test.strictEqual(result.data.error.data.spam, expected.data.error.data.spam);
+  if (result.bounce === true) {
+    test.strictEqual(result.email.body, expected.email.body);
+    test.strictEqual(result.email.intro, expected.email.intro);
+    test.strictEqual(result.email.error, expected.email.error);
 
-  test.strictEqual(result.data.recipient, expected.data.recipient);
+    test.strictEqual(result.data.error.code.basic, expected.data.error.code.basic);
+    test.strictEqual(result.data.error.code.enhanced, expected.data.error.code.enhanced);
+    test.strictEqual(result.data.error.label, expected.data.error.label);
+    test.strictEqual(result.data.error.type, expected.data.error.type);
+    test.strictEqual(result.data.error.temporary, expected.data.error.temporary);
+    test.strictEqual(result.data.error.permanent, expected.data.error.permanent);
+    test.strictEqual(result.data.error.data.type, expected.data.error.data.type);
+    test.strictEqual(result.data.error.data.blocked, expected.data.error.data.blocked);
+    test.strictEqual(result.data.error.data.spam, expected.data.error.data.spam);
 
-  test.strictEqual(result.data.server.hostname, expected.data.server.hostname);
-  test.strictEqual(result.data.server.ip, expected.data.server.ip);
-  test.strictEqual(result.data.server.port, expected.data.server.port);
+    test.strictEqual(result.data.recipient, expected.data.recipient);
 
-  test.strictEqual(result.data.command, expected.data.command);
+    test.strictEqual(result.data.server.hostname, expected.data.server.hostname);
+    test.strictEqual(result.data.server.ip, expected.data.server.ip);
+    test.strictEqual(result.data.server.port, expected.data.server.port);
+
+    test.strictEqual(result.data.command, expected.data.command);
+  }
 }
 
 module.exports = {
+  // Test: default
+  testDefault: function(test) {
+    loopTests(
+      [
+        "default",
+        "empty"
+      ],
+
+      (result, expected, entry) => {
+        testEmail(
+          test,
+          result,
+          expected,
+          entry
+        );
+      }
+    );
+
+    test.done();
+  },
+
   // Test: common
   testCommon: function(test) {
     loopTests(
