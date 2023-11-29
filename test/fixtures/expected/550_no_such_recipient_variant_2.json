@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<cavadova@mail.ru>: host mxs.mail.ru[271.96.193.105] said: 550 Message was not accepted -- invalid mailbox.  Local mailbox cavadova@mail.ru is unavailable: user not found (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<cavadova@mail.ru>: host mxs.mail.ru[271.96.193.105] said: 550 Message was not accepted -- invalid mailbox.  Local mailbox cavadova@mail.ru is unavailable: user not found (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": null
+      },
+      "label": "Message was not accepted -- invalid mailbox.  Local mailbox cavadova@mail.ru is unavailable: user not found",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "cavadova@mail.ru",
+    "server": {
+      "hostname": "mxs.mail.ru",
+      "ip": "271.96.193.105",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

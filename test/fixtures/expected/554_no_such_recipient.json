@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<wiz@yahoo.com>: host mta7.am0.yahoodns.net[76.159.282.160] said: 554 30 Sorry, your message to wiz@yahoo.com cannot be delivered. This mailbox is disabled (554.30). (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<wiz@yahoo.com>: host mta7.am0.yahoodns.net[76.159.282.160] said: 554 30 Sorry, your message to wiz@yahoo.com cannot be delivered. This mailbox is disabled (554.30). (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": null
+      },
+      "label": "30 Sorry, your message to wiz@yahoo.com cannot be delivered. This mailbox is disabled (554.30).",
+      "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "wiz@yahoo.com",
+    "server": {
+      "hostname": "mta7.am0.yahoodns.net",
+      "ip": "76.159.282.160",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

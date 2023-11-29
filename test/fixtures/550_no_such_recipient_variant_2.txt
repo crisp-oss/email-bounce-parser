@@ -1,0 +1,15 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<cavadova@mail.ru>: host mxs.mail.ru[271.96.193.105] said: 550 Message
+    was not accepted -- invalid mailbox.  Local mailbox cavadova@mail.ru
+    is unavailable: user not found (in reply to end of DATA command)

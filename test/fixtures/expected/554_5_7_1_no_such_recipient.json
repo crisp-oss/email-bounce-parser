@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<contact@monsson.com>: host mx.monsson.com.ust.b.hostedemail.com[46.89.83.4] said: 554 5.7.1 <contact@monsson.com>: Recipient address rejected: user contact@monsson.com does not exist (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<contact@monsson.com>: host mx.monsson.com.ust.b.hostedemail.com[46.89.83.4] said: 554 5.7.1 <contact@monsson.com>: Recipient address rejected: user contact@monsson.com does not exist (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": "5.7.1"
+      },
+      "label": "<contact@monsson.com>: Recipient address rejected: user contact@monsson.com does not exist",
+      "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "contact@monsson.com",
+    "server": {
+      "hostname": "mx.monsson.com.ust.b.hostedemail.com",
+      "ip": "46.89.83.4",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

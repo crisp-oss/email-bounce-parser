@@ -1,0 +1,15 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<token@mail.ru>: host mxs.mail.ru[49.101.108.13] said: 550 Message was not
+    accepted -- invalid mailbox.  Local mailbox token@mail.ru is
+    unavailable: account is disabled (in reply to end of DATA command)

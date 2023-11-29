@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<janeth@gmail.com>: host gmail-smtp-in.l.google.com[124.205.72.62] said: 552-5.2.2 The recipient's inbox is out of storage space and inactive. Please 552-5.2.2 direct the recipient to 552 5.2.2 https://support.google.com/mail/?p=OverQuotaPerm s22-20020a170906355600b00a00e7e8b2b9si980839eja.836 - gsmtp (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<janeth@gmail.com>: host gmail-smtp-in.l.google.com[124.205.72.62] said: 552-5.2.2 The recipient's inbox is out of storage space and inactive. Please 552-5.2.2 direct the recipient to 552 5.2.2 https://support.google.com/mail/?p=OverQuotaPerm s22-20020a170906355600b00a00e7e8b2b9si980839eja.836 - gsmtp (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "552",
+        "enhanced": "5.2.2"
+      },
+      "label": "The recipient's inbox is out of storage space and inactive. Please 552-5.2.2 direct the recipient to 552 5.2.2 https://support.google.com/mail/?p=OverQuotaPerm s22-20020a170906355600b00a00e7e8b2b9si980839eja.836 - gsmtp",
+      "type": "action_aborted_exceeded_storage_allocation",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "mailbox_full",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "janeth@gmail.com",
+    "server": {
+      "hostname": "gmail-smtp-in.l.google.com",
+      "ip": "124.205.72.62",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

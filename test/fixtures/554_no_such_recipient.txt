@@ -1,0 +1,15 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<wiz@yahoo.com>: host mta7.am0.yahoodns.net[76.159.282.160] said: 554 30
+    Sorry, your message to wiz@yahoo.com cannot be delivered. This mailbox is
+    disabled (554.30). (in reply to end of DATA command)

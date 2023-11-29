@@ -104,6 +104,11 @@ module.exports = {
         "550_not_allowed",
         "550_mailbox_unavailable",
 
+        "550_no_such_recipient",
+        "550_no_such_recipient_variant_1",
+        "550_no_such_recipient_variant_2",
+        "550_no_such_recipient_variant_3",
+
         "550_5_1_1_no_such_recipient",
         "550_5_1_1_no_such_recipient_variant_1",
         "550_5_1_1_no_such_recipient_variant_2",
@@ -134,11 +139,22 @@ module.exports = {
         "550_5_2_1_recipient_unknown",
         "550_5_2_1_account_disabled",
 
+        "550_5_4_1_no_such_recipient",
+        "550_5_4_1_no_such_recipient_variant_1",
+        "550_5_4_1_no_such_recipient_variant_2",
+        "550_5_4_1_no_such_recipient_variant_3",
+
         "550_5_7_1_spam_rejected",
 
-        "554_message_rejected",
+        "552_5_2_2_mailbox_over_quota",
+        "552_5_2_2_mailbox_full",
+
         "554_does_not_exist",
+        "554_no_such_recipient",
+        "554_message_rejected",
         "554_reputation",
+
+        "554_5_7_1_no_such_recipient",
 
         "554_5_7_1_spam_rejected",
         "554_5_7_1_spam_rejected_variant_1"
