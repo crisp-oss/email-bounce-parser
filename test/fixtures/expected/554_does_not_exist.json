@@ -16,7 +16,7 @@
       "temporary": false,
       "permanent": true,
       "data": {
-        "type": null,
+        "type": "no_such_recipient",
         "blocked": false,
         "spam": false
       }
