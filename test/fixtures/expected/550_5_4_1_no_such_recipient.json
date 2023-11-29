@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<lanemcfar@owenhales.ac.uk>: host owenhales-ac-uk.mail.protection.outlook.com[25.110.37.3] said: 550 5.4.1 Recipient address rejected: Access denied. [AMS0EPF0293901AB.eurprd05.prod.outlook.com 2023-01-01T00:00:00.000Z 08DBE74C0FA349500] (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<lanemcfar@owenhales.ac.uk>: host owenhales-ac-uk.mail.protection.outlook.com[25.110.37.3] said: 550 5.4.1 Recipient address rejected: Access denied. [AMS0EPF0293901AB.eurprd05.prod.outlook.com 2023-01-01T00:00:00.000Z 08DBE74C0FA349500] (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.4.1"
+      },
+      "label": "Recipient address rejected: Access denied. [AMS0EPF0293901AB.eurprd05.prod.outlook.com 2023-01-01T00:00:00.000Z 08DBE74C0FA349500]",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": true,
+        "spam": false
+      }
+    },
+    "recipient": "lanemcfar@owenhales.ac.uk",
+    "server": {
+      "hostname": "owenhales-ac-uk.mail.protection.outlook.com",
+      "ip": "25.110.37.3",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}
