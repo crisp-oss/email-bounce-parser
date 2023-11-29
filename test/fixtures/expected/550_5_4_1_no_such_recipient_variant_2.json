@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "The following message to <amedia@rakad.com> was undeliverable.\nThe reason for the problem:\n5.1.0 - Unknown address error 550-'5.4.1 Recipient address rejected: Access denied. [DU6PEPF324599526.eurprd02.prod.outlook.com 2023-01-01T00:00:00.001Z 08DBE75A492394846]'",
+    "intro": null,
+    "error": null
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.4.1"
+      },
+      "label": "Recipient address rejected: Access denied. [DU6PEPF324599526.eurprd02.prod.outlook.com 2023-01-01T00:00:00.001Z 08DBE75A492394846]'",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": true,
+        "spam": false
+      }
+    },
+    "recipient": "amedia@rakad.com",
+    "server": {
+      "hostname": null,
+      "ip": null,
+      "port": null
+    },
+    "command": null
+  }
+}

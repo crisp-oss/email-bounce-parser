@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail delivery agent at Symantec Email Security.cloud.\n\nI was unable to deliver your message to the following addresses:\n\nsharif@newre.com\n\nReason: 550 5.4.1 Recipient address rejected: Access denied. AS(234349959) [BMXCHD01FT014.eop-CHD01.prod.protection.outlook.com 2023-01-01T00:00:00.001Z 08DBE218E349CA4F]\n\nThe message subject was: REDACTED\nThe message date was: REDACTED\nThe message identifier was: REDACTED\nThe message reference was: REDACTED\n\nPlease do not reply to this email as it is sent from an unattended mailbox.\nContact your email administrator if you need more information, or\ninstructions for resolving this issue.",
+    "intro": null,
+    "error": null
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.4.1"
+      },
+      "label": "Recipient address rejected: Access denied. AS(234349959) [BMXCHD01FT014.eop-CHD01.prod.protection.outlook.com 2023-01-01T00:00:00.001Z 08DBE218E349CA4F]",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": true,
+        "spam": false
+      }
+    },
+    "recipient": "sharif@newre.com",
+    "server": {
+      "hostname": null,
+      "ip": null,
+      "port": null
+    },
+    "command": null
+  }
+}

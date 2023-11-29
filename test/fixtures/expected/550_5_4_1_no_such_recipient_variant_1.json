@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "AM4PEPF43952F9C.mail.protection.outlook.com rejected your message to the following email addresses:\n\nmam@smh365.mail.onmicrosoft.com<mailto:mam@smh365.mail.onmicrosoft.com> A communication failure occurred during the delivery of this message. Please try resending the message later. If the problem continues, contact your helpdesk.\n\n\nAM4PEPF43952F9C.mail.protection.outlook.com gave this error: Recipient address rejected: Access denied. [AM4PEPF43952F9C.EURPRD83.prod.outlook.com 2023-01-01T01:01:01.001Z 08DBEC564562FCD2]\n\n\n\n\n\n\n\nDiagnostic information for administrators:\n\nGenerating server: APP-HST-WIN-044.hms.se\n\nmama@smh365.mail.onmicrosoft.com AM4PEPF43952F9C.mail.protection.outlook.com Remote Server returned '550 5.4.1 Recipient address rejected: Access denied. [AM4PEPF43952F9C.EURPRD83.prod.outlook.com 2023-01-01T01:01:01.001Z 08DBEC564562FCD2]'\n\nOriginal message headers:\n\nReceived: REDACTED",
+    "intro": null,
+    "error": null
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.4.1"
+      },
+      "label": "Recipient address rejected: Access denied. [AM4PEPF43952F9C.EURPRD83.prod.outlook.com 2023-01-01T01:01:01.001Z 08DBEC564562FCD2]",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": true,
+        "spam": false
+      }
+    },
+    "recipient": "mam@smh365.mail.onmicrosoft.com",
+    "server": {
+      "hostname": "AM4PEPF43952F9C.mail.protection.outlook.com",
+      "ip": null,
+      "port": null
+    },
+    "command": null
+  }
+}

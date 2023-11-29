@@ -1,0 +1,16 @@
+This is the mail delivery agent at Symantec Email Security.cloud.
+
+I was unable to deliver your message to the following addresses:
+
+sharif@newre.com
+
+Reason: 550 5.4.1 Recipient address rejected: Access denied. AS(234349959) [BMXCHD01FT014.eop-CHD01.prod.protection.outlook.com 2023-01-01T00:00:00.001Z 08DBE218E349CA4F]
+
+The message subject was: REDACTED
+The message date was: REDACTED
+The message identifier was: REDACTED
+The message reference was: REDACTED
+
+Please do not reply to this email as it is sent from an unattended mailbox.
+Contact your email administrator if you need more information, or
+instructions for resolving this issue.

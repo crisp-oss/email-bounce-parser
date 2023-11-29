@@ -1,0 +1,22 @@
+AM4PEPF43952F9C.mail.protection.outlook.com rejected your message to the following email addresses:
+
+mam@smh365.mail.onmicrosoft.com<mailto:mam@smh365.mail.onmicrosoft.com> A communication failure occurred during the delivery of this message. Please try resending the message later. If the problem continues, contact your helpdesk.
+
+
+AM4PEPF43952F9C.mail.protection.outlook.com gave this error: Recipient address rejected: Access denied. [AM4PEPF43952F9C.EURPRD83.prod.outlook.com 2023-01-01T01:01:01.001Z 08DBEC564562FCD2]
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: APP-HST-WIN-044.hms.se
+
+mama@smh365.mail.onmicrosoft.com AM4PEPF43952F9C.mail.protection.outlook.com Remote Server returned '550 5.4.1 Recipient address rejected: Access denied. [AM4PEPF43952F9C.EURPRD83.prod.outlook.com 2023-01-01T01:01:01.001Z 08DBEC564562FCD2]'
+
+Original message headers:
+
+Received: REDACTED

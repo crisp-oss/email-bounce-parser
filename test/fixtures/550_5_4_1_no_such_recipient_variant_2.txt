@@ -1,0 +1,3 @@
+The following message to <amedia@rakad.com> was undeliverable.
+The reason for the problem:
+5.1.0 - Unknown address error 550-'5.4.1 Recipient address rejected: Access denied. [DU6PEPF324599526.eurprd02.prod.outlook.com 2023-01-01T00:00:00.001Z 08DBE75A492394846]'
