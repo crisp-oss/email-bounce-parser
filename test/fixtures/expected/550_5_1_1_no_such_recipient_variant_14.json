@@ -16,7 +16,9 @@
       "temporary": false,
       "permanent": true,
       "data": {
-        "type": "no_such_recipient"
+        "type": "no_such_recipient",
+        "blocked": false,
+        "spam": false
       }
     },
     "recipient": "saud@icloud.com",

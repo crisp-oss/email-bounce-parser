@@ -16,7 +16,9 @@
       "temporary": false,
       "permanent": true,
       "data": {
-        "type": "recipient_disabled_or_recipient_rate_limited"
+        "type": "recipient_disabled_or_recipient_rate_limited",
+        "blocked": false,
+        "spam": false
       }
     },
     "recipient": "ron@bellpac.net",

@@ -16,7 +16,9 @@
       "temporary": false,
       "permanent": true,
       "data": {
-        "type": null
+        "type": null,
+        "blocked": false,
+        "spam": false
       }
     },
     "recipient": "anton@nogew.com.mx",

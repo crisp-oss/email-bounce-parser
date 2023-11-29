@@ -52,6 +52,8 @@ function testEmail(test, result, expected, entry) {
   test.strictEqual(result.data.error.temporary, expected.data.error.temporary);
   test.strictEqual(result.data.error.permanent, expected.data.error.permanent);
   test.strictEqual(result.data.error.data.type, expected.data.error.data.type);
+  test.strictEqual(result.data.error.data.blocked, expected.data.error.data.blocked);
+  test.strictEqual(result.data.error.data.spam, expected.data.error.data.spam);
 
   test.strictEqual(result.data.recipient, expected.data.recipient);
 

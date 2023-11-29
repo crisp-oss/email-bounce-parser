@@ -71,6 +71,8 @@ console.log(result);
 //
 //       data: {
 //         type: "no_such_user",
+//         blocked: false,
+//         spam: false
 //       }
 //     },
 //

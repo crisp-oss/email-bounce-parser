@@ -16,7 +16,9 @@
       "temporary": false,
       "permanent": true,
       "data": {
-        "type": "spam_content"
+        "type": "spam_content",
+        "blocked": false,
+        "spam": true
       }
     },
     "recipient": "diretor@clima.com.br",
