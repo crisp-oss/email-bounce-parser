@@ -17,7 +17,7 @@
       "permanent": true,
       "data": {
         "type": null,
-        "blocked": false,
+        "blocked": true,
         "spam": false
       }
     },
