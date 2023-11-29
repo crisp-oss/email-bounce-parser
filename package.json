@@ -1,6 +1,6 @@
 {
   "name": "email-bounce-parser",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Parses bounce emails and extract errors",
   "author": "Eliott Vincent <eliott@crisp.chat>",
   "main": "lib/index.js",
