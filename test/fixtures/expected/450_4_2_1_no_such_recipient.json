@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<julia.acme@laposte.net>: host smtpz4.laposte.net[106.29.142.66] said: 450 4.2.1 <julia.acme@laposte.net>: Recipient address rejected: this mailbox is inactive and has been disabled (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<julia.acme@laposte.net>: host smtpz4.laposte.net[106.29.142.66] said: 450 4.2.1 <julia.acme@laposte.net>: Recipient address rejected: this mailbox is inactive and has been disabled (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "450",
+        "enhanced": "4.2.1"
+      },
+      "label": "<julia.acme@laposte.net>: Recipient address rejected: this mailbox is inactive and has been disabled",
+      "type": "action_not_taken_mailbox_unavailable",
+      "temporary": true,
+      "permanent": false,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "julia.acme@laposte.net",
+    "server": {
+      "hostname": "smtpz4.laposte.net",
+      "ip": "106.29.142.66",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

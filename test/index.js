@@ -94,6 +94,12 @@ module.exports = {
   testCommon: function(test) {
     loopTests(
       [
+        "421_too_many_connections",
+
+        "421_4_4_2_timeout",
+
+        "450_4_2_1_no_such_recipient",
+
         "550_permanent_failure",
         "550_not_allowed",
         "550_mailbox_unavailable",
@@ -132,6 +138,7 @@ module.exports = {
 
         "554_message_rejected",
         "554_does_not_exist",
+        "554_reputation",
 
         "554_5_7_1_spam_rejected",
         "554_5_7_1_spam_rejected_variant_1"

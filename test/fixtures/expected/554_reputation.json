@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<ware@t-online.de>: host mx02.t-online.de[149.52.143.9] refused to talk to me: 554 IP=39.177.48.67 - None/bad reputation. Ask your postmaster for help or to contact tobr@rx.t-online.de for reset. (NOWL)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<ware@t-online.de>: host mx02.t-online.de[149.52.143.9] refused to talk to me: 554 IP=39.177.48.67 - None/bad reputation. Ask your postmaster for help or to contact tobr@rx.t-online.de for reset. (NOWL)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": null
+      },
+      "label": "IP=39.177.48.67 - None/bad reputation. Ask your postmaster for help or to contact tobr@rx.t-online.de for reset. (NOWL)",
+      "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "ware@t-online.de",
+    "server": {
+      "hostname": "mx02.t-online.de",
+      "ip": "149.52.143.9",
+      "port": null
+    },
+    "command": null
+  }
+}

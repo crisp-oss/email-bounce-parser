@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<louis@orange.fr>: host smtp-in.orange.fr[80.21.62.23] refused to talk to me: 421 opmtad4k4345ydf smtp.orange.fr 9d0fgdhg9n Trop de connexions, veuillez verifier votre configuration. Too many connections, slow down. OFR005_104 [104]",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<louis@orange.fr>: host smtp-in.orange.fr[80.21.62.23] refused to talk to me: 421 opmtad4k4345ydf smtp.orange.fr 9d0fgdhg9n Trop de connexions, veuillez verifier votre configuration. Too many connections, slow down. OFR005_104 [104]"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "421",
+        "enhanced": null
+      },
+      "label": "opmtad4k4345ydf smtp.orange.fr 9d0fgdhg9n Trop de connexions, veuillez verifier votre configuration. Too many connections, slow down. OFR005_104 [104]",
+      "type": "service_not_available",
+      "temporary": true,
+      "permanent": false,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "louis@orange.fr",
+    "server": {
+      "hostname": "smtp-in.orange.fr",
+      "ip": "80.21.62.23",
+      "port": null
+    },
+    "command": null
+  }
+}
