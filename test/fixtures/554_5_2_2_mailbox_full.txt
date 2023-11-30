@@ -1,0 +1,22 @@
+Delivery has failed to these recipients or groups:
+
+arte@hotmail.com<mailto:arte@hotmail.com>
+The recipient's mailbox is full and can't accept messages now. Please try resending your message later, or contact the recipient directly.
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: PH7PR02MB9549495.namprd02.prod.outlook.com
+
+arte@hotmail.com
+Remote server returned '554 5.2.2 mailbox full; STOREDRV.Deliver.Exception:QuotaExceededException; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Microsoft Unified Storage is full. QuotaExceededException: Microsoft Unified Storage is full.[EndDiagnosticData] [Stage: DeliverMessage]'
+
+Original message headers:
+
+Received: REDACTED

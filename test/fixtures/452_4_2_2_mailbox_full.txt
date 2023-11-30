@@ -1,0 +1,18 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<jahid@gmail.com>: host alt1.gmail-smtp-in.l.google.com[124.215.9.62]
+    said: 452-4.2.2 The recipient's inbox is out of storage space. Please
+    direct the 452-4.2.2 recipient to 452 4.2.2
+    https://support.google.com/mail/?p=OverQuotaTemp
+    q23-20020a50cc97000000b0054ae87c9c39si95693edi.64 - gsmtp (in reply to RCPT
+    TO command)

@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<oscar@marisa.com.mx>: conversation with marisa-com-mx-2.fortimailcloud.com[154.52.5.132] timed out while sending RCPT TO",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<oscar@marisa.com.mx>: conversation with marisa-com-mx-2.fortimailcloud.com[154.52.5.132] timed out while sending RCPT TO"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": null,
+        "enhanced": null
+      },
+      "label": "<oscar@marisa.com.mx>: conversation with marisa-com-mx-2.fortimailcloud.com[154.52.5.132] timed out while sending RCPT TO",
+      "type": null,
+      "temporary": false,
+      "permanent": false,
+      "data": {
+        "type": "server_timeout",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "oscar@marisa.com.mx",
+    "server": {
+      "hostname": "marisa-com-mx-2.fortimailcloud.com",
+      "ip": "154.52.5.132",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

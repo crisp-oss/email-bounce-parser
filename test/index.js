@@ -96,15 +96,22 @@ module.exports = {
       [
         "unknown_server_unknown",
 
+        "unknown_server_timeout",
+        "unknown_server_timeout_variant_1",
+        "unknown_server_timeout_variant_2",
+
         "421_too_many_connections",
 
         "421_4_4_2_timeout",
 
         "450_4_2_1_no_such_recipient",
 
+        "452_4_2_2_mailbox_full",
+
         "550_permanent_failure",
         "550_not_allowed",
         "550_mailbox_unavailable",
+        "550_mailbox_full",
 
         "550_no_such_recipient",
         "550_no_such_recipient_variant_1",
@@ -159,7 +166,9 @@ module.exports = {
         "552_no_such_recipient",
 
         "552_5_2_2_mailbox_over_quota",
+
         "552_5_2_2_mailbox_full",
+        "552_5_2_2_mailbox_full_variant_1",
 
         "554_does_not_exist",
         "554_no_such_recipient",
@@ -167,6 +176,8 @@ module.exports = {
         "554_reputation",
 
         "554_5_1_1_no_such_recipient",
+
+        "554_5_2_2_mailbox_full",
 
         "554_5_7_1_no_such_recipient",
 

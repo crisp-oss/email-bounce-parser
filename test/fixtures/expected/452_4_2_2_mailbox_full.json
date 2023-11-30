@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<jahid@gmail.com>: host alt1.gmail-smtp-in.l.google.com[124.215.9.62] said: 452-4.2.2 The recipient's inbox is out of storage space. Please direct the 452-4.2.2 recipient to 452 4.2.2 https://support.google.com/mail/?p=OverQuotaTemp q23-20020a50cc97000000b0054ae87c9c39si95693edi.64 - gsmtp (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<jahid@gmail.com>: host alt1.gmail-smtp-in.l.google.com[124.215.9.62] said: 452-4.2.2 The recipient's inbox is out of storage space. Please direct the 452-4.2.2 recipient to 452 4.2.2 https://support.google.com/mail/?p=OverQuotaTemp q23-20020a50cc97000000b0054ae87c9c39si95693edi.64 - gsmtp (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "452",
+        "enhanced": "4.2.2"
+      },
+      "label": "The recipient's inbox is out of storage space. Please direct the 452-4.2.2 recipient to 452 4.2.2 https://support.google.com/mail/?p=OverQuotaTemp q23-20020a50cc97000000b0054ae87c9c39si95693edi.64 - gsmtp",
+      "type": "action_not_taken_insufficient_system_storage",
+      "temporary": true,
+      "permanent": false,
+      "data": {
+        "type": "mailbox_full",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "jahid@gmail.com",
+    "server": {
+      "hostname": "alt1.gmail-smtp-in.l.google.com",
+      "ip": "124.215.9.62",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

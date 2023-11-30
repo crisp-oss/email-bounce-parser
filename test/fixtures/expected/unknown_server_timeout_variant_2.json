@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<2trs@strox.su>: connect to strox.su[158.187.280.197]:25: Connection timed out",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<2trs@strox.su>: connect to strox.su[158.187.280.197]:25: Connection timed out"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": null,
+        "enhanced": null
+      },
+      "label": "<2trs@strox.su>: connect to strox.su[158.187.280.197]:25: Connection timed out",
+      "type": null,
+      "temporary": false,
+      "permanent": false,
+      "data": {
+        "type": "server_timeout",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "2trs@strox.su",
+    "server": {
+      "hostname": "strox.su",
+      "ip": "158.187.280.197",
+      "port": "25"
+    },
+    "command": null
+  }
+}

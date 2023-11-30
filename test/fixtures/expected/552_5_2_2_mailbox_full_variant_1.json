@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<camila@icloud.com>: host mx01.mail.icloud.com[71.75.165.3] said: 552 5.2.2 <camila@icloud.com>: user is over quota (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<camila@icloud.com>: host mx01.mail.icloud.com[71.75.165.3] said: 552 5.2.2 <camila@icloud.com>: user is over quota (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "552",
+        "enhanced": "5.2.2"
+      },
+      "label": "<camila@icloud.com>: user is over quota",
+      "type": "action_aborted_exceeded_storage_allocation",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "mailbox_full",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "camila@icloud.com",
+    "server": {
+      "hostname": "mx01.mail.icloud.com",
+      "ip": "71.75.165.3",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

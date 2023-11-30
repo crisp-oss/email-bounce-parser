@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "Delivery has failed to these recipients or groups:\n\narte@hotmail.com<mailto:arte@hotmail.com>\nThe recipient's mailbox is full and can't accept messages now. Please try resending your message later, or contact the recipient directly.\n\n\n\n\n\n\n\n\nDiagnostic information for administrators:\n\nGenerating server: PH7PR02MB9549495.namprd02.prod.outlook.com\n\narte@hotmail.com\nRemote server returned '554 5.2.2 mailbox full; STOREDRV.Deliver.Exception:QuotaExceededException; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Microsoft Unified Storage is full. QuotaExceededException: Microsoft Unified Storage is full.[EndDiagnosticData] [Stage: DeliverMessage]'\n\nOriginal message headers:\n\nReceived: REDACTED",
+    "intro": null,
+    "error": null
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": "5.2.2"
+      },
+      "label": "mailbox full; STOREDRV.Deliver.Exception:QuotaExceededException; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Microsoft Unified Storage is full. QuotaExceededException: Microsoft Unified Storage is full.[EndDiagnosticData] [Stage: DeliverMessage]",
+      "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "mailbox_full",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "arte@hotmail.com",
+    "server": {
+      "hostname": "PH7PR02MB9549495.namprd02.prod.outlook.com",
+      "ip": null,
+      "port": null
+    },
+    "command": null
+  }
+}
