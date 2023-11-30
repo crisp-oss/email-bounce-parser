@@ -94,6 +94,8 @@ module.exports = {
   testCommon: function(test) {
     loopTests(
       [
+        "unknown_server_unknown",
+
         "421_too_many_connections",
 
         "421_4_4_2_timeout",
@@ -113,6 +115,7 @@ module.exports = {
         "550_no_such_recipient_variant_6",
         "550_no_such_recipient_variant_7",
         "550_no_such_recipient_variant_8",
+        "550_no_such_recipient_variant_9",
 
         "550_5_1_1_no_such_recipient",
         "550_5_1_1_no_such_recipient_variant_1",
@@ -162,6 +165,8 @@ module.exports = {
         "554_no_such_recipient",
         "554_message_rejected",
         "554_reputation",
+
+        "554_5_1_1_no_such_recipient",
 
         "554_5_7_1_no_such_recipient",
 

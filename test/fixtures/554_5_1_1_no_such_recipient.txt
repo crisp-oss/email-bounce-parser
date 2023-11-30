@@ -1,0 +1,17 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<contact@crazy.com>: host mx1-hosting.jellyfish.systems[179.53.126.232]
+    said: 554 5.1.1 <contact@crazy.com>: Recipient address rejected:
+    undeliverable address: host server86.web-hosting.com[198.54.114.214] said:
+    550 No Such User Here (in reply to RCPT TO command) (in reply to RCPT TO
+    command)

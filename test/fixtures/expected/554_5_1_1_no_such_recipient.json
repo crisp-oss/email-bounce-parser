@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<contact@crazy.com>: host mx1-hosting.jellyfish.systems[179.53.126.232] said: 554 5.1.1 <contact@crazy.com>: Recipient address rejected: undeliverable address: host server86.web-hosting.com[198.54.114.214] said: 550 No Such User Here (in reply to RCPT TO command) (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<contact@crazy.com>: host mx1-hosting.jellyfish.systems[179.53.126.232] said: 554 5.1.1 <contact@crazy.com>: Recipient address rejected: undeliverable address: host server86.web-hosting.com[198.54.114.214] said: 550 No Such User Here (in reply to RCPT TO command) (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": "5.1.1"
+      },
+      "label": "<contact@crazy.com>: Recipient address rejected: undeliverable address: host server86.web-hosting.com[198.54.114.214] said: 550 No Such User Here (in reply to RCPT TO command)",
+      "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "contact@crazy.com",
+    "server": {
+      "hostname": "mx1-hosting.jellyfish.systems",
+      "ip": "179.53.126.232",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}
