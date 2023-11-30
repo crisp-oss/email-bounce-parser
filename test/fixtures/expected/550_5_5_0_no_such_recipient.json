@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<ladarin@outlook.com>: host outlook-com.olc.protection.outlook.com[104.74.75.33] said: 550 5.5.0 Requested action not taken: mailbox unavailable (S2017062302). (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<ladarin@outlook.com>: host outlook-com.olc.protection.outlook.com[104.74.75.33] said: 550 5.5.0 Requested action not taken: mailbox unavailable (S2017062302). (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.5.0"
+      },
+      "label": "Requested action not taken: mailbox unavailable (S2017062302).",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "ladarin@outlook.com",
+    "server": {
+      "hostname": "outlook-com.olc.protection.outlook.com",
+      "ip": "104.74.75.33",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

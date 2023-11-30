@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<yangou.zz@seeed.cc>: host mxbiz1.qq.com[34.145.225.213] said: 550 Mailbox unavailable or access denied [Nu9f9OZKLqwsa5e0lRlDLWZOPVpYEEbXi4uXt3GS/VM16Byamgn8HIQ=  IP: 93.177.87.246]. https://open.work.weixin.qq.com/help2/pc/20057. (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<yangou.zz@seeed.cc>: host mxbiz1.qq.com[34.145.225.213] said: 550 Mailbox unavailable or access denied [Nu9f9OZKLqwsa5e0lRlDLWZOPVpYEEbXi4uXt3GS/VM16Byamgn8HIQ=  IP: 93.177.87.246]. https://open.work.weixin.qq.com/help2/pc/20057. (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": null
+      },
+      "label": "Mailbox unavailable or access denied [Nu9f9OZKLqwsa5e0lRlDLWZOPVpYEEbXi4uXt3GS/VM16Byamgn8HIQ=  IP: 93.177.87.246]. https://open.work.weixin.qq.com/help2/pc/20057.",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": true,
+        "spam": false
+      }
+    },
+    "recipient": "yangou.zz@seeed.cc",
+    "server": {
+      "hostname": "mxbiz1.qq.com",
+      "ip": "34.145.225.213",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

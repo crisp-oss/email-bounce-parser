@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<batu606@mail.com>: host mx00.mail.com[47.280.5.2] said: 550 Requested action not taken: mailbox unavailable (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<batu606@mail.com>: host mx00.mail.com[47.280.5.2] said: 550 Requested action not taken: mailbox unavailable (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": null
+      },
+      "label": "Requested action not taken: mailbox unavailable",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "batu606@mail.com",
+    "server": {
+      "hostname": "mx00.mail.com",
+      "ip": "47.280.5.2",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

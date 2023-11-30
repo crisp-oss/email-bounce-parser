@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<shagha+34993495@yahoo.com>: host mta7.am0.yahoodns.net[76.159.240.27] said: 552 1 Requested mail action aborted, mailbox not found (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<shagha+34993495@yahoo.com>: host mta7.am0.yahoodns.net[76.159.240.27] said: 552 1 Requested mail action aborted, mailbox not found (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "552",
+        "enhanced": null
+      },
+      "label": "1 Requested mail action aborted, mailbox not found",
+      "type": "action_aborted_exceeded_storage_allocation",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "shagha+34993495@yahoo.com",
+    "server": {
+      "hostname": "mta7.am0.yahoodns.net",
+      "ip": "76.159.240.27",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

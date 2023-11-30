@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<doune70@163.com>: host 163mx02.mxmail.netease.com[130.192.225.34] said: 550 User not found: doune70@163.com (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<doune70@163.com>: host 163mx02.mxmail.netease.com[130.192.225.34] said: 550 User not found: doune70@163.com (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": null
+      },
+      "label": "User not found: doune70@163.com",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "no_such_recipient",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "doune70@163.com",
+    "server": {
+      "hostname": "163mx02.mxmail.netease.com",
+      "ip": "130.192.225.34",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

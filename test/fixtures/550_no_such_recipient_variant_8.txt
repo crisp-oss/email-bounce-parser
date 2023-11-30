@@ -1,0 +1,17 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<yangou.zz@seeed.cc>: host mxbiz1.qq.com[34.145.225.213] said: 550 Mailbox
+    unavailable or access denied
+    [Nu9f9OZKLqwsa5e0lRlDLWZOPVpYEEbXi4uXt3GS/VM16Byamgn8HIQ=  IP:
+    93.177.87.246]. https://open.work.weixin.qq.com/help2/pc/20057. (in reply
+    to end of DATA command)

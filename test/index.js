@@ -108,6 +108,11 @@ module.exports = {
         "550_no_such_recipient_variant_1",
         "550_no_such_recipient_variant_2",
         "550_no_such_recipient_variant_3",
+        "550_no_such_recipient_variant_4",
+        "550_no_such_recipient_variant_5",
+        "550_no_such_recipient_variant_6",
+        "550_no_such_recipient_variant_7",
+        "550_no_such_recipient_variant_8",
 
         "550_5_1_1_no_such_recipient",
         "550_5_1_1_no_such_recipient_variant_1",
@@ -144,7 +149,11 @@ module.exports = {
         "550_5_4_1_no_such_recipient_variant_2",
         "550_5_4_1_no_such_recipient_variant_3",
 
+        "550_5_5_0_no_such_recipient",
+
         "550_5_7_1_spam_rejected",
+
+        "552_no_such_recipient",
 
         "552_5_2_2_mailbox_over_quota",
         "552_5_2_2_mailbox_full",
