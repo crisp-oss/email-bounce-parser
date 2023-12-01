@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<jean-luc@orange.fr>: host smtp-in.orange.fr[80.21.62.23] said: 550 5.2.0 6FcArPEpSDkj6 Mail rejete. Mail rejected. OFR_506 [506] (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<jean-luc@orange.fr>: host smtp-in.orange.fr[80.21.62.23] said: 550 5.2.0 6FcArPEpSDkj6 Mail rejete. Mail rejected. OFR_506 [506] (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.2.0"
+      },
+      "label": "6FcArPEpSDkj6 Mail rejete. Mail rejected. OFR_506 [506]",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "jean-luc@orange.fr",
+    "server": {
+      "hostname": "smtp-in.orange.fr",
+      "ip": "80.21.62.23",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

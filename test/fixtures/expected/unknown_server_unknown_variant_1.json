@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<ademy@randou.com>: Host or domain name not found. Name service error for name=randou.com type=MX: Host not found, try again",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<ademy@randou.com>: Host or domain name not found. Name service error for name=randou.com type=MX: Host not found, try again"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": null,
+        "enhanced": null
+      },
+      "label": "<ademy@randou.com>: Host or domain name not found. Name service error for name=randou.com type=MX: Host not found, try again",
+      "type": null,
+      "temporary": false,
+      "permanent": false,
+      "data": {
+        "type": "server_unknown",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "ademy@randou.com",
+    "server": {
+      "hostname": "randou.com",
+      "ip": null,
+      "port": null
+    },
+    "command": null
+  }
+}

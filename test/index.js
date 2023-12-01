@@ -95,6 +95,7 @@ module.exports = {
     loopTests(
       [
         "unknown_server_unknown",
+        "unknown_server_unknown_variant_1",
 
         "unknown_server_timeout",
         "unknown_server_timeout_variant_1",
@@ -103,6 +104,7 @@ module.exports = {
         "421_too_many_connections",
 
         "421_4_4_2_timeout",
+        "421_4_7_28_ip_blocked_spam",
 
         "450_4_2_1_no_such_recipient",
 
@@ -112,6 +114,7 @@ module.exports = {
         "550_not_allowed",
         "550_mailbox_unavailable",
         "550_mailbox_full",
+        "550_spam",
 
         "550_no_such_recipient",
         "550_no_such_recipient_variant_1",
@@ -123,6 +126,7 @@ module.exports = {
         "550_no_such_recipient_variant_7",
         "550_no_such_recipient_variant_8",
         "550_no_such_recipient_variant_9",
+        "550_no_such_recipient_variant_10",
 
         "550_5_1_1_no_such_recipient",
         "550_5_1_1_no_such_recipient_variant_1",
@@ -148,8 +152,11 @@ module.exports = {
         "550_5_1_1_no_such_recipient_variant_21",
         "550_5_1_1_no_such_recipient_variant_22",
         "550_5_1_1_no_such_recipient_variant_23",
-        "550_5_1_1_no_such_recipient_variant_24",
-        "550_5_1_1_no_such_recipient_variant_25",
+
+        "550_5_1_10_no_such_recipient",
+        "550_5_1_10_no_such_recipient_variant_1",
+
+        "550_5_2_0_message_rejected",
 
         "550_5_2_1_recipient_unknown",
         "550_5_2_1_account_disabled",
@@ -161,7 +168,10 @@ module.exports = {
 
         "550_5_5_0_no_such_recipient",
 
-        "550_5_7_1_spam_rejected",
+        "550_5_7_1_spam_content",
+        "550_5_7_1_spam_content_variant_1",
+        "550_5_7_1_spam_content_variant_2",
+        "550_5_7_1_spam_content_variant_3",
 
         "552_no_such_recipient",
 
@@ -174,6 +184,7 @@ module.exports = {
         "554_no_such_recipient",
         "554_message_rejected",
         "554_reputation",
+        "554_spam",
 
         "554_5_1_1_no_such_recipient",
 
@@ -181,8 +192,9 @@ module.exports = {
 
         "554_5_7_1_no_such_recipient",
 
-        "554_5_7_1_spam_rejected",
-        "554_5_7_1_spam_rejected_variant_1"
+        "554_5_7_1_spam_content",
+        "554_5_7_1_spam_content_variant_1",
+        "554_5_7_1_spam_content_variant_2"
       ],
 
       (result, expected, entry) => {

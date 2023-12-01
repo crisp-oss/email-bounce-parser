@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<help@supplyresidence.com>: host mx.supplyresidence.com.cust.b.hostedemail.com[46.89.83.4] said: 550 5.7.1 Message contains spam or virus. (110) [23992349932-349593] (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<help@supplyresidence.com>: host mx.supplyresidence.com.cust.b.hostedemail.com[46.89.83.4] said: 550 5.7.1 Message contains spam or virus. (110) [23992349932-349593] (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.7.1"
+      },
+      "label": "Message contains spam or virus. (110) [23992349932-349593]",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "spam_content",
+        "blocked": false,
+        "spam": true
+      }
+    },
+    "recipient": "help@supplyresidence.com",
+    "server": {
+      "hostname": "mx.supplyresidence.com.cust.b.hostedemail.com",
+      "ip": "46.89.83.4",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

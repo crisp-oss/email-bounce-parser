@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<data.sethu@gmail.com>: host alt1.gmail-smtp-in.l.google.com[142.251.9.26] said: 421-4.7.28 Gmail has detected an unusual rate of unsolicited mail originating 421-4.7.28 from your SPF domain [sethu.on.acme.email 15]. To protect 421-4.7.28 our users from spam, mail sent from your domain has been temporarily 421-4.7.28 rate limited. Please visit 421-4.7.28 https://support.google.com/mail/?p=UnsolicitedRateLimitError to 421 4.7.28 review our Bulk Email Senders Guidelines. j18-20020a508a92000000b00534235955d5si930283edj.153 - gsmtp (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<data.sethu@gmail.com>: host alt1.gmail-smtp-in.l.google.com[142.251.9.26] said: 421-4.7.28 Gmail has detected an unusual rate of unsolicited mail originating 421-4.7.28 from your SPF domain [sethu.on.acme.email 15]. To protect 421-4.7.28 our users from spam, mail sent from your domain has been temporarily 421-4.7.28 rate limited. Please visit 421-4.7.28 https://support.google.com/mail/?p=UnsolicitedRateLimitError to 421 4.7.28 review our Bulk Email Senders Guidelines. j18-20020a508a92000000b00534235955d5si930283edj.153 - gsmtp (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "421",
+        "enhanced": "4.7.28"
+      },
+      "label": "Gmail has detected an unusual rate of unsolicited mail originating 421-4.7.28 from your SPF domain [sethu.on.acme.email 15]. To protect 421-4.7.28 our users from spam, mail sent from your domain has been temporarily 421-4.7.28 rate limited. Please visit 421-4.7.28 https://support.google.com/mail/?p=UnsolicitedRateLimitError to 421 4.7.28 review our Bulk Email Senders Guidelines. j18-20020a508a92000000b00534235955d5si930283edj.153 - gsmtp",
+      "type": "service_not_available",
+      "temporary": true,
+      "permanent": false,
+      "data": {
+        "type": "ip_blocked_spam",
+        "blocked": false,
+        "spam": true
+      }
+    },
+    "recipient": "data.sethu@gmail.com",
+    "server": {
+      "hostname": "alt1.gmail-smtp-in.l.google.com",
+      "ip": "142.251.9.26",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

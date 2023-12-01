@@ -9,7 +9,7 @@
     "error": {
       "code": {
         "basic": "550",
-        "enhanced": "5.1.1"
+        "enhanced": "5.1.10"
       },
       "label": "RESOLVER.ADR.RecipientNotFound; Recipient yannja@napa365.com not found by SMTP address lookup",
       "type": "action_not_taken",

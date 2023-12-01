@@ -30,7 +30,9 @@
     "mail",
     "email",
     "bounce",
-    "bounces"
+    "bounces",
+    "smtp",
+    "rfc"
   ],
   "license": "MIT"
 }

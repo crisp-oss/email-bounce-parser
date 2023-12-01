@@ -1,22 +1,9 @@
-Uw bericht kan niet worden bezorgd bij de volgende geadresseerden of groepen:
 
-r.gelna@socav.nl<mailto:r.gelna@socav.nl>
-Het door u ingevoerde e-mailadres is niet gevonden. Controleer het e-mailadres van de geadresseerde en verzend het bericht opnieuw. Als het probleem zich blijft voordoen, neemt u contact op met de e-mailbeheerder.
+** Address not found **
 
+Your message wasn't delivered to wendynunez@optiry.com because the address couldn't be found, or is unable to receive mail.
 
+Learn more here: https://support.google.com/mail/?p=NoSuchUser
 
-
-
-
-
-
-Diagnostische gegevens voor beheerders:
-
-Bronserver: ray.socav.local
-
-r.gelna@socav.nl
-Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup'
-
-Oorspronkelijke berichtkoppen:
-
-Received: from ray.socav.local (192.168.121.7) by ray.socav.local REDACTED
+The response from the remote server was:
+550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. Learn more at https://support.google.com/mail/?p=NoSuchUser az10-29348239488-9285349r8sd8gds8fdfdfg.1 - gsmtp

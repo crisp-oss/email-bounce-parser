@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<curious@sfr.fr>: host smtp-in.sfr.fr[39.71.182.156] said: 550 5.7.1 Email 4Sbnd53EO2z1LKLct rejected per SPAM policy (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<curious@sfr.fr>: host smtp-in.sfr.fr[39.71.182.156] said: 550 5.7.1 Email 4Sbnd53EO2z1LKLct rejected per SPAM policy (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.7.1"
+      },
+      "label": "Email 4Sbnd53EO2z1LKLct rejected per SPAM policy",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "spam_content",
+        "blocked": false,
+        "spam": true
+      }
+    },
+    "recipient": "curious@sfr.fr",
+    "server": {
+      "hostname": "smtp-in.sfr.fr",
+      "ip": "39.71.182.156",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

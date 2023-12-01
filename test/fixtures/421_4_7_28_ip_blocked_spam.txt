@@ -1,0 +1,21 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<data.sethu@gmail.com>: host alt1.gmail-smtp-in.l.google.com[142.251.9.26]
+    said: 421-4.7.28 Gmail has detected an unusual rate of unsolicited mail
+    originating 421-4.7.28 from your SPF domain [sethu.on.acme.email
+    15]. To protect 421-4.7.28 our users from spam, mail sent from your domain
+    has been temporarily 421-4.7.28 rate limited. Please visit 421-4.7.28
+    https://support.google.com/mail/?p=UnsolicitedRateLimitError to 421 4.7.28
+    review our Bulk Email Senders Guidelines.
+    j18-20020a508a92000000b00534235955d5si930283edj.153 - gsmtp (in reply to
+    end of DATA command)
