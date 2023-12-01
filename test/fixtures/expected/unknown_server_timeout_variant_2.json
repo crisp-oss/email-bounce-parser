@@ -11,7 +11,7 @@
         "basic": null,
         "enhanced": null
       },
-      "label": "<2trs@strox.su>: connect to strox.su[158.187.280.197]:25: Connection timed out",
+      "label": "connect to strox.su[158.187.280.197]:25: Connection timed out",
       "type": null,
       "temporary": false,
       "permanent": false,

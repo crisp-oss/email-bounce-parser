@@ -11,7 +11,7 @@
         "basic": null,
         "enhanced": null
       },
-      "label": "<ademy@randou.com>: Host or domain name not found. Name service error for name=randou.com type=MX: Host not found, try again",
+      "label": "Host or domain name not found. Name service error for name=randou.com type=MX: Host not found, try again",
       "type": null,
       "temporary": false,
       "permanent": false,

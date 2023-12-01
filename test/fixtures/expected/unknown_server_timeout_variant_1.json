@@ -11,7 +11,7 @@
         "basic": null,
         "enhanced": null
       },
-      "label": "<info@payment.com>: conversation with _dc-mx.34d953e4r59tt.payment.com[163.234.63.9] timed out while sending end of data -- message may be sent more than once",
+      "label": "conversation with _dc-mx.34d953e4r59tt.payment.com[163.234.63.9] timed out while sending end of data -- message may be sent more than once",
       "type": null,
       "temporary": false,
       "permanent": false,

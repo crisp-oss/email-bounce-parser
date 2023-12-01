@@ -96,6 +96,7 @@ module.exports = {
       [
         "unknown_server_unknown",
         "unknown_server_unknown_variant_1",
+        "unknown_server_unknown_variant_2",
 
         "unknown_server_timeout",
         "unknown_server_timeout_variant_1",

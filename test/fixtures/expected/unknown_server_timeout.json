@@ -11,7 +11,7 @@
         "basic": null,
         "enhanced": null
       },
-      "label": "<oscar@marisa.com.mx>: conversation with marisa-com-mx-2.fortimailcloud.com[154.52.5.132] timed out while sending RCPT TO",
+      "label": "conversation with marisa-com-mx-2.fortimailcloud.com[154.52.5.132] timed out while sending RCPT TO",
       "type": null,
       "temporary": false,
       "permanent": false,
