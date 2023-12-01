@@ -11,7 +11,7 @@
         "basic": "554",
         "enhanced": "5.7.1"
       },
-      "label": "<contact@monsson.com>: Recipient address rejected: user contact@monsson.com does not exist",
+      "label": "Recipient address rejected: user contact@monsson.com does not exist",
       "type": "transaction_failed",
       "temporary": false,
       "permanent": true,

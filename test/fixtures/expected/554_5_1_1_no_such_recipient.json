@@ -11,7 +11,7 @@
         "basic": "554",
         "enhanced": "5.1.1"
       },
-      "label": "<contact@crazy.com>: Recipient address rejected: undeliverable address: host server86.web-hosting.com[198.54.114.214] said: 550 No Such User Here (in reply to RCPT TO command)",
+      "label": "Recipient address rejected: undeliverable address: host server86.web-hosting.com[198.54.114.214] said: 550 No Such User Here",
       "type": "transaction_failed",
       "temporary": false,
       "permanent": true,

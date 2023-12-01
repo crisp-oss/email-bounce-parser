@@ -11,7 +11,7 @@
         "basic": "550",
         "enhanced": "5.1.1"
       },
-      "label": "<julia.mandez@enseignement.gouv.ch>: Recipient address rejected: User unknown in relay recipient table",
+      "label": "Recipient address rejected: User unknown in relay recipient table",
       "type": "action_not_taken",
       "temporary": false,
       "permanent": true,

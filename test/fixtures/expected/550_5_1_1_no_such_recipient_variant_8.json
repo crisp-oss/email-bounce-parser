@@ -11,7 +11,7 @@
         "basic": "550",
         "enhanced": "5.1.1"
       },
-      "label": "<client@mistas.com>: Recipient address rejected: undeliverable address: host mail.servidormk.com[private/dovecot-lmtp] said: 550 5.1.1 <client@mistas.com> User doesn't exist: client@mistas.com (in reply to RCPT TO command)",
+      "label": "Recipient address rejected: undeliverable address: host mail.servidormk.com[private/dovecot-lmtp] said: 550 5.1.1 <client@mistas.com> User doesn't exist: client@mistas.com",
       "type": "action_not_taken",
       "temporary": false,
       "permanent": true,

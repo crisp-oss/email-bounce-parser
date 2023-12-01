@@ -11,7 +11,7 @@
         "basic": "550",
         "enhanced": "5.1.1"
       },
-      "label": "<baroka@protonmail.com>: Recipient address rejected: Address is not configured to receive emails",
+      "label": "Recipient address rejected: Address is not configured to receive emails",
       "type": "action_not_taken",
       "temporary": false,
       "permanent": true,

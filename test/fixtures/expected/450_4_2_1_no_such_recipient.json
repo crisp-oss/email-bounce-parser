@@ -11,7 +11,7 @@
         "basic": "450",
         "enhanced": "4.2.1"
       },
-      "label": "<julia.acme@laposte.net>: Recipient address rejected: this mailbox is inactive and has been disabled",
+      "label": "Recipient address rejected: this mailbox is inactive and has been disabled",
       "type": "action_not_taken_mailbox_unavailable",
       "temporary": true,
       "permanent": false,

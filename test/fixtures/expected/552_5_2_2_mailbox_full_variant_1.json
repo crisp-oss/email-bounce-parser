@@ -11,7 +11,7 @@
         "basic": "552",
         "enhanced": "5.2.2"
       },
-      "label": "<camila@icloud.com>: user is over quota",
+      "label": "user is over quota",
       "type": "action_aborted_exceeded_storage_allocation",
       "temporary": false,
       "permanent": true,

@@ -11,7 +11,7 @@
         "basic": "550",
         "enhanced": "5.1.1"
       },
-      "label": "<jadson@iclod.com>: Recipient address rejected: undeliverable address: host mda.orcon.net.nz[10.245.73.6] said: 550 unknown user (in reply to RCPT TO command)",
+      "label": "Recipient address rejected: undeliverable address: host mda.orcon.net.nz[10.245.73.6] said: 550 unknown user",
       "type": "action_not_taken",
       "temporary": false,
       "permanent": true,
