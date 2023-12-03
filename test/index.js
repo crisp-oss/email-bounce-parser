@@ -97,6 +97,7 @@ module.exports = {
         "unknown_server_unknown",
         "unknown_server_unknown_variant_1",
         "unknown_server_unknown_variant_2",
+        "unknown_server_unknown_variant_3",
 
         "unknown_server_timeout",
         "unknown_server_timeout_variant_1",
@@ -107,6 +108,8 @@ module.exports = {
         "421_4_4_2_timeout",
         "421_4_7_28_ip_blocked_spam",
 
+        "451_action_aborted_local_error",
+
         "450_4_2_1_no_such_recipient",
 
         "452_4_2_2_mailbox_full",
@@ -116,6 +119,7 @@ module.exports = {
         "550_mailbox_unavailable",
         "550_mailbox_full",
         "550_spam",
+        "550_unkown_server",
 
         "550_no_such_recipient",
         "550_no_such_recipient_variant_1",
@@ -128,6 +132,7 @@ module.exports = {
         "550_no_such_recipient_variant_8",
         "550_no_such_recipient_variant_9",
         "550_no_such_recipient_variant_10",
+        "550_no_such_recipient_variant_11",
 
         "550_5_1_1_no_such_recipient",
         "550_5_1_1_no_such_recipient_variant_1",

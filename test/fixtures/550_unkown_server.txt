@@ -1,0 +1,16 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<paypal@bc-node.nl>: host bc-node.nl[13.168.196.14] said: 550-The mail server
+    could not deliver mail to paypal@bc-node.nl.  The account 550-or domain may
+    not exist, they may be blacklisted, or missing the proper dns 550 entries.
+    (in reply to RCPT TO command)

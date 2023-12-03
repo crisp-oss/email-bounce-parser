@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<safae@yahoo.com>: host mta5.am0.yahoodns.net[89.163.69.19] said: 451 Message temporarily deferred due to unresolvable RFC.5321 from domain; see https://postmaster.yahooinc.com/error-codes (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<safae@yahoo.com>: host mta5.am0.yahoodns.net[89.163.69.19] said: 451 Message temporarily deferred due to unresolvable RFC.5321 from domain; see https://postmaster.yahooinc.com/error-codes (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "451",
+        "enhanced": null
+      },
+      "label": "Message temporarily deferred due to unresolvable RFC.5321 from domain; see https://postmaster.yahooinc.com/error-codes",
+      "type": "action_aborted_local_error",
+      "temporary": true,
+      "permanent": false,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "safae@yahoo.com",
+    "server": {
+      "hostname": "mta5.am0.yahoodns.net",
+      "ip": "89.163.69.19",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<laon@lmxz.xyz>: connect to mail.xzlm.xyz[32.150.250.201]:25: No route to host",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<laon@lmxz.xyz>: connect to mail.xzlm.xyz[32.150.250.201]:25: No route to host"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": null,
+        "enhanced": null
+      },
+      "label": "connect to mail.xzlm.xyz[32.150.250.201]:25: No route to host",
+      "type": null,
+      "temporary": false,
+      "permanent": false,
+      "data": {
+        "type": "server_unknown",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "laon@lmxz.xyz",
+    "server": {
+      "hostname": "mail.xzlm.xyz",
+      "ip": "32.150.250.201",
+      "port": "25"
+    },
+    "command": null
+  }
+}
