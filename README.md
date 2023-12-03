@@ -39,7 +39,7 @@ console.log(result);
 ### Parse a bounce email
 
 `read(body)` parses the bounce email and extracts available information (error code and type, server, original recipient, etc.):
-* `body` must be a string representing the bounce email body (as returned by [mailparser](https://github.com/nodemailer/mailparser), for example)
+* `body` must be a string representing the bounce email **text** body (not HTML body). You can use [mailparser](https://github.com/nodemailer/mailparser) for example.
 
 ```js
 const EmailBounceParse = require("email-bounce-parser");
