@@ -53,7 +53,7 @@ console.log(result);
 //   email: {
 //     body: "This is the mail system at host mailer.acme.email [...] (in reply to RCPT TO command)",
 //     intro: "This is the mail system at host mailer.acme.email [...] The mail system",
-//     error: "<support@yipee.com>: host smtp.secureserver.net[92.240.81.0] said: [...] (in reply to RCPT TO command)"
+//     error: "<john@yipee.com>: host smtp.secureserver.net[92.240.81.0] said: [...] (in reply to RCPT TO command)"
 //   },
 //
 //   data: {
@@ -62,7 +62,7 @@ console.log(result);
 //         basic: "550",
 //         enhanced: "5.1.1"
 //       },
-//       label: "<support@yipee.com> Recipient not found.",
+//       label: "<john@yipee.com> Recipient not found.",
 //
 //       type: "action_not_taken",
 //
@@ -75,6 +75,8 @@ console.log(result);
 //         spam: false
 //       }
 //     },
+//
+//     recipient: "john@yipee.com",
 //
 //     server: {
 //       hostname: "smtp.secureserver.net",
