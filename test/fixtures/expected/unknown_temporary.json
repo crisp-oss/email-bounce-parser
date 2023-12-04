@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "** Delivery incomplete **\n\nThere was a temporary problem delivering your message to rb.xbg@pivu.com. Gmail will retry for 46 more hours. You'll be notified if the delivery fails permanently.",
+    "intro": null,
+    "error": null
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": null,
+        "enhanced": null
+      },
+      "label": null,
+      "type": null,
+      "temporary": true,
+      "permanent": false,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "rb.xbg@pivu.com",
+    "server": {
+      "hostname": null,
+      "ip": null,
+      "port": null
+    },
+    "command": null
+  }
+}

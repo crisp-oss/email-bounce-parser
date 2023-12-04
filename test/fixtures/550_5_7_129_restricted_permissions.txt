@@ -1,0 +1,27 @@
+Delivery has failed to these recipients or groups:
+
+cion.ralbes@lin.com<mailto:cion.ralbes@lin.com>
+Your message couldn't be delivered to the recipient because you don't have permission to send to it.
+
+Ask the recipient's email admin to add you to the accept list for the recipient.
+
+For more information, see DSN 5.7.129 Errors in Exchange Online and Office 365<https://go.microsoft.com/fwlink/?LinkId=389365>.
+
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: EV2MR07MI7830.eurprd06.prod.outlook.com
+
+cion.ralbes@lin.com
+Remote server returned '550 5.7.129 RESOLVER.RST.RestrictedToRecipientsPermission; not authorized to send to recipient because the sender isn't on the recipient's list of senders to accept mail from'
+
+Original message headers:
+
+REDACTED

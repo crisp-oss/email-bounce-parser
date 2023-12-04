@@ -103,12 +103,16 @@ module.exports = {
         "unknown_server_timeout_variant_1",
         "unknown_server_timeout_variant_2",
 
+        "unknown_temporary",
+
         "421_too_many_connections",
 
         "421_4_4_2_timeout",
         "421_4_7_28_ip_blocked_spam",
 
         "451_action_aborted_local_error",
+
+        "451_4_7_650_reputation",
 
         "450_4_2_1_no_such_recipient",
 
@@ -133,13 +137,6 @@ module.exports = {
         "550_no_such_recipient_variant_9",
         "550_no_such_recipient_variant_10",
         "550_no_such_recipient_variant_11",
-
-        "550_5_4_1_no_such_recipient",
-        "550_5_4_1_no_such_recipient_variant_1",
-        "550_5_4_1_no_such_recipient_variant_2",
-        "550_5_4_1_no_such_recipient_variant_3",
-
-        "550_5_4_310_server_unknown",
 
         "550_5_1_1_no_such_recipient",
         "550_5_1_1_no_such_recipient_variant_1",
@@ -174,12 +171,23 @@ module.exports = {
         "550_5_2_1_recipient_unknown",
         "550_5_2_1_account_disabled",
 
+        "550_5_4_1_no_such_recipient",
+        "550_5_4_1_no_such_recipient_variant_1",
+        "550_5_4_1_no_such_recipient_variant_2",
+        "550_5_4_1_no_such_recipient_variant_3",
+
+        "550_5_4_310_server_unknown",
+
         "550_5_5_0_no_such_recipient",
+
+        "550_5_7_1_reputation",
 
         "550_5_7_1_spam_content",
         "550_5_7_1_spam_content_variant_1",
         "550_5_7_1_spam_content_variant_2",
         "550_5_7_1_spam_content_variant_3",
+
+        "550_5_7_129_restricted_permissions",
 
         "552_no_such_recipient",
 

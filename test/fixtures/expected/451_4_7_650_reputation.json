@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<y.fliyusi@outlook.com>: host outlook-com.olc.protection.outlook.com[140.74.55.33] said: 451 4.7.650 The mail server [39.177.48.16] has been temporarily rate limited due to IP reputation. For e-mail delivery information, see https://postmaster.live.com (S843) (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<y.fliyusi@outlook.com>: host outlook-com.olc.protection.outlook.com[140.74.55.33] said: 451 4.7.650 The mail server [39.177.48.16] has been temporarily rate limited due to IP reputation. For e-mail delivery information, see https://postmaster.live.com (S843) (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "451",
+        "enhanced": "4.7.650"
+      },
+      "label": "The mail server [39.177.48.16] has been temporarily rate limited due to IP reputation. For e-mail delivery information, see https://postmaster.live.com (S843)",
+      "type": "action_aborted_local_error",
+      "temporary": true,
+      "permanent": false,
+      "data": {
+        "type": "reputation",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "y.fliyusi@outlook.com",
+    "server": {
+      "hostname": "outlook-com.olc.protection.outlook.com",
+      "ip": "140.74.55.33",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

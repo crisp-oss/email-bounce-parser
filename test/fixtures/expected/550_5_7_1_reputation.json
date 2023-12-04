@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "** Delivery incomplete **\n\nThere was a temporary problem delivering your message to raymund10@gmail.com. Gmail will retry for 47 more hours. You'll be notified if the delivery fails permanently.\n\nLearn more here: https://support.google.com/mail/answer/188131\n\nThe response from the remote server was:\n550 5.7.1 [2500:1109:110::11      91] Gmail has detected that this message is likely suspicious due to the very low reputation of the sending domain. To best protect our users from spam, the message has been blocked. Please visit https://support.google.com/mail/answer/188131 for more information. t64-20020a1fc343000000b0049d0aa186d9si449748vkf.30 - gsmtp",
+    "intro": null,
+    "error": null
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.7.1"
+      },
+      "label": "[2500:1109:110::11      91] Gmail has detected that this message is likely suspicious due to the very low reputation of the sending domain. To best protect our users from spam, the message has been blocked. Please visit https://support.google.com/mail/answer/188131 for more information. t64-20020a1fc343000000b0049d0aa186d9si449748vkf.30 - gsmtp",
+      "type": "action_not_taken",
+      "temporary": true,
+      "permanent": false,
+      "data": {
+        "type": "spam_content",
+        "blocked": true,
+        "spam": true
+      }
+    },
+    "recipient": "raymund10@gmail.com",
+    "server": {
+      "hostname": null,
+      "ip": null,
+      "port": null
+    },
+    "command": null
+  }
+}
