@@ -1,0 +1,38 @@
+Delivery has failed to these recipients or groups:
+
+test@yaloc.moc (test@yaloc.moc)<mailto:test@yaloc.moc>
+Your message couldn't be delivered. The Domain Name System (DNS) reported that the recipient's domain does not exist.
+
+Contact the recipient by some other means (by phone, for example) and ask them to tell their email admin that it appears that their domain isn't properly registered at their domain registrar. Give them the error details shown below. It's likely that the recipient's email admin is the only one who can fix this problem.
+
+For more information and tips to fix this issue see this article: https://go.microsoft.com/fwlink/?LinkId=389361.
+
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: REZSP40BP8110.apcprd04.prod.outlook.com
+
+test@yaloc.moc
+Remote server returned '550 5.4.310 DNS domain yaloc.moc does not exist [Message=InfoDomainNonexistent] [LastAttemptedServerName=yaloc.moc] [BM3PCA10RH0014.eop-APC01.prod.protection.outlook.com 2023-01-01T00:00:00.000Z 80EPF029F0GK28P8]'
+
+Original message headers:
+
+REDACTED
+
+
+Reporting-MTA: dns;REZSP40BP8110.apcprd04.prod.outlook.com
+Received-From-MTA: dns;IS2PR04BN3506.apcprd04.prod.outlook.com
+Arrival-Date: Sun, 1 Jan 2023 00:00:00 +0000
+
+Final-Recipient: rfc822;test@yaloc.moc
+Action: failed
+Status: 5.4.310
+Diagnostic-Code: smtp;550 5.4.310 DNS domain yaloc.moc does not exist [Message=InfoDomainNonexistent] [LastAttemptedServerName=yaloc.moc] [BM3PCA10RH0014.eop-APC01.prod.protection.outlook.com 2023-01-01T00:00:00.000Z 80EPF029F0GK28P8]
+X-Display-Name: test@yaloc.moc

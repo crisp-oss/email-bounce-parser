@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "Delivery has failed to these recipients or groups:\n\ntest@yaloc.moc (test@yaloc.moc)<mailto:test@yaloc.moc>\nYour message couldn't be delivered. The Domain Name System (DNS) reported that the recipient's domain does not exist.\n\nContact the recipient by some other means (by phone, for example) and ask them to tell their email admin that it appears that their domain isn't properly registered at their domain registrar. Give them the error details shown below. It's likely that the recipient's email admin is the only one who can fix this problem.\n\nFor more information and tips to fix this issue see this article: https://go.microsoft.com/fwlink/?LinkId=389361.\n\n\n\n\n\n\n\n\n\nDiagnostic information for administrators:\n\nGenerating server: REZSP40BP8110.apcprd04.prod.outlook.com\n\ntest@yaloc.moc\nRemote server returned '550 5.4.310 DNS domain yaloc.moc does not exist [Message=InfoDomainNonexistent] [LastAttemptedServerName=yaloc.moc] [BM3PCA10RH0014.eop-APC01.prod.protection.outlook.com 2023-01-01T00:00:00.000Z 80EPF029F0GK28P8]'\n\nOriginal message headers:\n\nREDACTED\n\n\nReporting-MTA: dns;REZSP40BP8110.apcprd04.prod.outlook.com\nReceived-From-MTA: dns;IS2PR04BN3506.apcprd04.prod.outlook.com\nArrival-Date: Sun, 1 Jan 2023 00:00:00 +0000\n\nFinal-Recipient: rfc822;test@yaloc.moc\nAction: failed\nStatus: 5.4.310\nDiagnostic-Code: smtp;550 5.4.310 DNS domain yaloc.moc does not exist [Message=InfoDomainNonexistent] [LastAttemptedServerName=yaloc.moc] [BM3PCA10RH0014.eop-APC01.prod.protection.outlook.com 2023-01-01T00:00:00.000Z 80EPF029F0GK28P8]\nX-Display-Name: test@yaloc.moc",
+    "intro": null,
+    "error": null
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.4.310"
+      },
+      "label": "DNS domain yaloc.moc does not exist [Message=InfoDomainNonexistent] [LastAttemptedServerName=yaloc.moc] [BM3PCA10RH0014.eop-APC01.prod.protection.outlook.com 2023-01-01T00:00:00.000Z 80EPF029F0GK28P8]",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "server_unknown",
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "test@yaloc.moc",
+    "server": {
+      "hostname": "REZSP40BP8110.apcprd04.prod.outlook.com",
+      "ip": null,
+      "port": null
+    },
+    "command": null
+  }
+}

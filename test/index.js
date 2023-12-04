@@ -134,6 +134,13 @@ module.exports = {
         "550_no_such_recipient_variant_10",
         "550_no_such_recipient_variant_11",
 
+        "550_5_4_1_no_such_recipient",
+        "550_5_4_1_no_such_recipient_variant_1",
+        "550_5_4_1_no_such_recipient_variant_2",
+        "550_5_4_1_no_such_recipient_variant_3",
+
+        "550_5_4_310_server_unknown",
+
         "550_5_1_1_no_such_recipient",
         "550_5_1_1_no_such_recipient_variant_1",
         "550_5_1_1_no_such_recipient_variant_2",
@@ -166,11 +173,6 @@ module.exports = {
 
         "550_5_2_1_recipient_unknown",
         "550_5_2_1_account_disabled",
-
-        "550_5_4_1_no_such_recipient",
-        "550_5_4_1_no_such_recipient_variant_1",
-        "550_5_4_1_no_such_recipient_variant_2",
-        "550_5_4_1_no_such_recipient_variant_3",
 
         "550_5_5_0_no_such_recipient",
 
