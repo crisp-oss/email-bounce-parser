@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<servicio3495@mails.epractice.org>: connect to mails.epractice.org[189.199.78.194]:25: Connection refused",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<servicio3495@mails.epractice.org>: connect to mails.epractice.org[189.199.78.194]:25: Connection refused"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": null,
+        "enhanced": null
+      },
+      "label": "connect to mails.epractice.org[189.199.78.194]:25: Connection refused",
+      "type": null,
+      "temporary": false,
+      "permanent": false,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "servicio3495@mails.epractice.org",
+    "server": {
+      "hostname": "mails.epractice.org",
+      "ip": "189.199.78.194",
+      "port": "25"
+    },
+    "command": null
+  }
+}

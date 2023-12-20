@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<erklgfsdlkgsld@outlook.com>: host outlook-com.olc.protection.outlook.com[140.74.15.33] said: 550 5.7.1 Unfortunately, messages from [31.57.142.204] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [WP1FDK33EO054.eop-nam02.prod.protection.outlook.com 2023-01-01T00:00:00.001Z 03SDKS32D1WER234] (in reply to MAIL FROM command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<erklgfsdlkgsld@outlook.com>: host outlook-com.olc.protection.outlook.com[140.74.15.33] said: 550 5.7.1 Unfortunately, messages from [31.57.142.204] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [WP1FDK33EO054.eop-nam02.prod.protection.outlook.com 2023-01-01T00:00:00.001Z 03SDKS32D1WER234] (in reply to MAIL FROM command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.7.1"
+      },
+      "label": "Unfortunately, messages from [31.57.142.204] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [WP1FDK33EO054.eop-nam02.prod.protection.outlook.com 2023-01-01T00:00:00.001Z 03SDKS32D1WER234]",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "spam_content",
+        "blocked": true,
+        "spam": false
+      }
+    },
+    "recipient": "erklgfsdlkgsld@outlook.com",
+    "server": {
+      "hostname": "outlook-com.olc.protection.outlook.com",
+      "ip": "140.74.15.33",
+      "port": null
+    },
+    "command": "MAIL FROM"
+  }
+}

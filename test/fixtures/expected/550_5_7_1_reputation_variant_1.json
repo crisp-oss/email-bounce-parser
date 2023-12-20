@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<valentin09594954@gmail.com>: host gmail-smtp-in.l.google.com[124.205.72.62] said: 550-5.7.1 [93.177.87.181 19] Gmail has detected that this message is likely 550-5.7.1 suspicious due to the very low reputation of the sending domain. To 550-5.7.1 best protect our users from spam, the message has been blocked. 550-5.7.1 Please visit 550 5.7.1  https://support.google.com/mail/answer/188131 for more information. h6-20020a05640250c600b0054ab00d6afesi892868edb.356 - gsmtp (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<valentin09594954@gmail.com>: host gmail-smtp-in.l.google.com[124.205.72.62] said: 550-5.7.1 [93.177.87.181 19] Gmail has detected that this message is likely 550-5.7.1 suspicious due to the very low reputation of the sending domain. To 550-5.7.1 best protect our users from spam, the message has been blocked. 550-5.7.1 Please visit 550 5.7.1  https://support.google.com/mail/answer/188131 for more information. h6-20020a05640250c600b0054ab00d6afesi892868edb.356 - gsmtp (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.7.1"
+      },
+      "label": "[93.177.87.181 19] Gmail has detected that this message is likely 550-5.7.1 suspicious due to the very low reputation of the sending domain. To 550-5.7.1 best protect our users from spam, the message has been blocked. 550-5.7.1 Please visit 550 5.7.1  https://support.google.com/mail/answer/188131 for more information. h6-20020a05640250c600b0054ab00d6afesi892868edb.356 - gsmtp",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "spam_content",
+        "blocked": true,
+        "spam": true
+      }
+    },
+    "recipient": "valentin09594954@gmail.com",
+    "server": {
+      "hostname": "gmail-smtp-in.l.google.com",
+      "ip": "124.205.72.62",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

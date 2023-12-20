@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<svelt.marc@decimetre.com>: host etzzogal-com0i.mail.protection.outlook.com[140.74.42.63] said: 451 4.7.500 Server busy. Please try again later from [39.177.48.16]. (S77714) [QE2FRA04FT039.eop-fra04.prod.protection.outlook.com 2023-11-23T18:53:22.058Z 10DSKD34941BC6NE] (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<svelt.marc@decimetre.com>: host etzzogal-com0i.mail.protection.outlook.com[140.74.42.63] said: 451 4.7.500 Server busy. Please try again later from [39.177.48.16]. (S77714) [QE2FRA04FT039.eop-fra04.prod.protection.outlook.com 2023-11-23T18:53:22.058Z 10DSKD34941BC6NE] (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "451",
+        "enhanced": "4.7.500"
+      },
+      "label": "Server busy. Please try again later from [39.177.48.16]. (S77714) [QE2FRA04FT039.eop-fra04.prod.protection.outlook.com 2023-11-23T18:53:22.058Z 10DSKD34941BC6NE]",
+      "type": "action_aborted_local_error",
+      "temporary": true,
+      "permanent": false,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "svelt.marc@decimetre.com",
+    "server": {
+      "hostname": "etzzogal-com0i.mail.protection.outlook.com",
+      "ip": "140.74.42.63",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

@@ -1,0 +1,20 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<zopotodaniel@fyguare.com>: host aspmx.l.google.com[124.205.72.62] said:
+    550-5.7.26 Unauthenticated email from acme.com is not accepted due to
+    domain's 550-5.7.26 DMARC policy. Please contact the administrator of
+    acme.com domain 550-5.7.26 if this was a legitimate mail. Please visit
+    550-5.7.26  https://support.google.com/mail/answer/2451690 to learn about
+    the 550 5.7.26 DMARC initiative.
+    v10-20020a170906488a11b0098d8390816asi945962ejq.756 - gsmtp (in reply to
+    end of DATA command)

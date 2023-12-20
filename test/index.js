@@ -94,13 +94,15 @@ module.exports = {
   testCommon: function(test) {
     loopTests(
       [
+        "unknown_server_connection",
+        "unknown_server_connection_variant_1",
+
         "unknown_server_unknown",
         "unknown_server_unknown_variant_1",
         "unknown_server_unknown_variant_2",
         "unknown_server_unknown_variant_3",
 
         "unknown_server_timeout",
-        "unknown_server_timeout_variant_1",
         "unknown_server_timeout_variant_2",
 
         "unknown_temporary",
@@ -108,13 +110,22 @@ module.exports = {
         "421_too_many_connections",
 
         "421_4_4_2_timeout",
+
+        "421_4_7_0_deferred",
+
         "421_4_7_28_ip_blocked_spam",
+
+        "450_4_2_1_no_such_recipient",
+
+        "450_4_2_1_rate_limited",
 
         "451_action_aborted_local_error",
 
-        "451_4_7_650_reputation",
+        "451_4_7_1_reputation",
 
-        "450_4_2_1_no_such_recipient",
+        "451_4_7_500_server_busy",
+
+        "451_4_7_650_reputation",
 
         "452_4_2_2_mailbox_full",
 
@@ -137,6 +148,10 @@ module.exports = {
         "550_no_such_recipient_variant_9",
         "550_no_such_recipient_variant_10",
         "550_no_such_recipient_variant_11",
+
+        "550_5_0_1_no_such_recipient",
+
+        "550_5_1_0_address_rejected",
 
         "550_5_1_1_no_such_recipient",
         "550_5_1_1_no_such_recipient_variant_1",
@@ -180,12 +195,19 @@ module.exports = {
 
         "550_5_5_0_no_such_recipient",
 
+        "550_5_7_1_blocked",
+
         "550_5_7_1_reputation",
+        "550_5_7_1_reputation_variant_1",
+
+        "550_5_7_1_service_refused",
 
         "550_5_7_1_spam_content",
         "550_5_7_1_spam_content_variant_1",
         "550_5_7_1_spam_content_variant_2",
         "550_5_7_1_spam_content_variant_3",
+
+        "550_5_7_26_authentication_failure",
 
         "550_5_7_129_restricted_permissions",
 
@@ -206,11 +228,15 @@ module.exports = {
 
         "554_5_2_2_mailbox_full",
 
+        "554_5_2_3_policy_violation",
+
         "554_5_7_1_no_such_recipient",
 
         "554_5_7_1_spam_content",
         "554_5_7_1_spam_content_variant_1",
-        "554_5_7_1_spam_content_variant_2"
+        "554_5_7_1_spam_content_variant_2",
+
+        "554_5_7_7_equal_headers"
       ],
 
       (result, expected, entry) => {
