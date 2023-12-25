@@ -115,6 +115,8 @@ module.exports = {
 
         "421_4_7_28_ip_blocked_spam",
 
+        "450_rate_limited",
+
         "450_4_2_1_no_such_recipient",
 
         "450_4_2_1_rate_limited",
@@ -230,11 +232,18 @@ module.exports = {
 
         "554_5_2_3_policy_violation",
 
+        "554_5_4_0_hops",
+
         "554_5_7_1_no_such_recipient",
+        "554_5_7_1_no_such_recipient_variant_1",
 
         "554_5_7_1_spam_content",
         "554_5_7_1_spam_content_variant_1",
         "554_5_7_1_spam_content_variant_2",
+        "554_5_7_1_spam_content_variant_3",
+        "554_5_7_1_spam_content_variant_4",
+
+        "554_5_7_105_sender_blocked",
 
         "554_5_7_7_equal_headers"
       ],

@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<nuzz@yahoo.com>: host mta6.am0.yahoodns.net[76.159.240.27] said: 450 User is receiving mail too quickly tnmpmscs (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<nuzz@yahoo.com>: host mta6.am0.yahoodns.net[76.159.240.27] said: 450 User is receiving mail too quickly tnmpmscs (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "450",
+        "enhanced": null
+      },
+      "label": "User is receiving mail too quickly tnmpmscs",
+      "type": "action_not_taken_mailbox_unavailable",
+      "temporary": true,
+      "permanent": false,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "nuzz@yahoo.com",
+    "server": {
+      "hostname": "mta6.am0.yahoodns.net",
+      "ip": "76.159.240.27",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}
