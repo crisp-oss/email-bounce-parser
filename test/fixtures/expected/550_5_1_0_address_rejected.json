@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<vantes@saphe.com.mx>: host mx1.hc3459-45.iphmx.com[193.183.64.148] said: 550 #5.1.0 Address rejected. (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<vantes@saphe.com.mx>: host mx1.hc3459-45.iphmx.com[193.183.64.148] said: 550 #5.1.0 Address rejected. (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "550",
+        "enhanced": "5.1.0"
+      },
+      "label": "Address rejected.",
+      "type": "action_not_taken",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "vantes@saphe.com.mx",
+    "server": {
+      "hostname": "mx1.hc3459-45.iphmx.com",
+      "ip": "193.183.64.148",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

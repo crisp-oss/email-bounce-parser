@@ -1,0 +1,15 @@
+This is the mail system at host out41.mail.ovh.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<mag@aeolia.com>: host mxplan3.mail.ovh.net[49.32.197.262]
+    said: 554 5.7.105 SenderFilterAgent; Sender denied as sender's email
+    address is on SenderFilterConfig list (in reply to end of DATA command)

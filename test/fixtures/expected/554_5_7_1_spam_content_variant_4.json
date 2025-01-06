@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<qui@tanau.uc>: host mail2.etecsa.net[118.252.213.4] said: 554 5.7.1 Service unavailable; Client host [39.177.48.171] blocked using 0spam.fusionzero.com; Received: from mailer-2w.outbound.crisp.email ([39.177.48.171])  Fri, 22 Sep 2023 01:01:01 +0000 Subject: Backlinking is not that crazy anymore (in reply to RCPT TO command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<qui@tanau.uc>: host mail2.etecsa.net[118.252.213.4] said: 554 5.7.1 Service unavailable; Client host [39.177.48.171] blocked using 0spam.fusionzero.com; Received: from mailer-2w.outbound.crisp.email ([39.177.48.171])  Fri, 22 Sep 2023 01:01:01 +0000 Subject: Backlinking is not that crazy anymore (in reply to RCPT TO command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": "5.7.1"
+      },
+      "label": "Service unavailable; Client host [39.177.48.171] blocked using 0spam.fusionzero.com; Received: from mailer-2w.outbound.crisp.email ([39.177.48.171])  Fri, 22 Sep 2023 01:01:01 +0000 Subject: Backlinking is not that crazy anymore",
+      "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": "spam_content",
+        "blocked": true,
+        "spam": true
+      }
+    },
+    "recipient": "qui@tanau.uc",
+    "server": {
+      "hostname": "mail2.etecsa.net",
+      "ip": "118.252.213.4",
+      "port": null
+    },
+    "command": "RCPT TO"
+  }
+}

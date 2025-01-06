@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<pialy23044@marksia.com>: lost connection with mx.mail-data.net[134.244.220.69] while receiving the initial server greeting",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<pialy23044@marksia.com>: lost connection with mx.mail-data.net[134.244.220.69] while receiving the initial server greeting"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": null,
+        "enhanced": null
+      },
+      "label": "lost connection with mx.mail-data.net[134.244.220.69] while receiving the initial server greeting",
+      "type": null,
+      "temporary": false,
+      "permanent": false,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": false
+      }
+    },
+    "recipient": "pialy23044@marksia.com",
+    "server": {
+      "hostname": "mx.mail-data.net",
+      "ip": "134.244.220.69",
+      "port": null
+    },
+    "command": null
+  }
+}

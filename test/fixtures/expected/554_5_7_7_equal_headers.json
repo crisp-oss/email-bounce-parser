@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<nick@easy.nl>: host spamrelay.zxcs.nl[158.140.82.21] said: 554 5.7.7 too many equal X-headers (X-Original-Authentication-Results:) (in reply to end of DATA command)",
+    "intro": "This is the mail system at host mailer.acme.email.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<nick@easy.nl>: host spamrelay.zxcs.nl[158.140.82.21] said: 554 5.7.7 too many equal X-headers (X-Original-Authentication-Results:) (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": "5.7.7"
+      },
+      "label": "too many equal X-headers (X-Original-Authentication-Results:)",
+      "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": null,
+        "blocked": false,
+        "spam": true
+      }
+    },
+    "recipient": "nick@easy.nl",
+    "server": {
+      "hostname": "spamrelay.zxcs.nl",
+      "ip": "158.140.82.21",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

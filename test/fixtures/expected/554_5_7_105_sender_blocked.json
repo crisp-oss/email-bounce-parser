@@ -1,0 +1,32 @@
+{
+  "bounce": true,
+  "email": {
+    "body": "This is the mail system at host out41.mail.ovh.net.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system\n\n<mag@aeolia.com>: host mxplan3.mail.ovh.net[49.32.197.262] said: 554 5.7.105 SenderFilterAgent; Sender denied as sender's email address is on SenderFilterConfig list (in reply to end of DATA command)",
+    "intro": "This is the mail system at host out41.mail.ovh.net.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients. It's attached below.\n\nFor further assistance, please send mail to postmaster.\n\nIf you do so, please include this problem report. You can delete your own text from the attached returned message.\n\nThe mail system",
+    "error": "<mag@aeolia.com>: host mxplan3.mail.ovh.net[49.32.197.262] said: 554 5.7.105 SenderFilterAgent; Sender denied as sender's email address is on SenderFilterConfig list (in reply to end of DATA command)"
+  },
+  "data": {
+    "error": {
+      "code": {
+        "basic": "554",
+        "enhanced": "5.7.105"
+      },
+      "label": "SenderFilterAgent; Sender denied as sender's email address is on SenderFilterConfig list",
+      "type": "transaction_failed",
+      "temporary": false,
+      "permanent": true,
+      "data": {
+        "type": null,
+        "blocked": true,
+        "spam": false
+      }
+    },
+    "recipient": "mag@aeolia.com",
+    "server": {
+      "hostname": "mxplan3.mail.ovh.net",
+      "ip": "49.32.197.262",
+      "port": null
+    },
+    "command": "DATA"
+  }
+}

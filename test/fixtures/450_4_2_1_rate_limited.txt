@@ -1,0 +1,21 @@
+This is the mail system at host mailer.acme.email.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<mulka@gmail.com>: host alt1.gmail-smtp-in.l.google.com[124.215.9.62] said:
+    450-4.2.1 The user you are trying to contact is receiving mail at a rate
+    that 450-4.2.1 prevents additional messages from being delivered. Please
+    resend your 450-4.2.1 message at a later time. If the user is able to
+    receive mail at that 450-4.2.1 time, your message will be delivered. For
+    more information, please 450-4.2.1 visit 450 4.2.1
+    https://support.google.com/mail/?p=ReceivingRate
+    f15-20020a056402354f00b00548d4febb0bsi965249edd.614 - gsmtp (in reply to
+    RCPT TO command)
