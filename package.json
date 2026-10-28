@@ -14,16 +14,27 @@
   },
   "engineStrict": true,
   "engines": {
-    "node": ">=14.18.0"
+    "node": ">= 22.0.0"
   },
   "scripts": {
-    "test": "nodeunit ./test/index.js"
+    "unit": "nodeunit ./test/index.js",
+    "unit:regexp": "EMAIL_BOUNCE_PARSER_DISABLE_RE2=1 npm run unit",
+    "test": "npm run unit && npm run unit:regexp"
   },
   "devDependencies": {
-    "nodeunit-x": "0.15.0"
+    "nodeunit-x": "0.15.0",
+    "re2": "1.27.0"
   },
-  "dependencies": {
-    "re2": "1.20.7"
+  "peerDependencies": {
+    "re2": "1.x"
+  },
+  "peerDependenciesMeta": {
+    "re2": {
+      "optional": true
+    }
+  },
+  "allowScripts": {
+    "re2@1.27.0": true
   },
   "keywords": [
     "parser",
