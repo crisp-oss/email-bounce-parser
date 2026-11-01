@@ -24,6 +24,22 @@ _👋 You use this library and you want to be listed there? [Contact us](https:/
 This library is used at [Crisp](https://crisp.chat/) everyday to parse bounce emails.
 It supports most variations of bounce emails (Postfix, Dovecat, Gmail, Outlook).
 
+## RE2 Support
+
+This library uses the [RE2](https://github.com/uhop/node-re2) regex engine when available for better performance and [ReDoS](https://en.wikipedia.org/wiki/ReDoS) protection. It automatically falls back to native JavaScript `RegExp` if RE2 is unavailable or fails to load.
+
+RE2 is an optional dependency. To use it, install it alongside this library:
+
+```bash
+npm install re2
+```
+
+After a Node.js upgrade, you may need to rebuild RE2:
+
+```bash
+npm rebuild re2
+```
+
 ## Usage
 
 ```js
