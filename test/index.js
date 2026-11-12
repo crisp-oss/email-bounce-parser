@@ -5,6 +5,7 @@
  ***************************************************************************/
 
 var fs                = require("fs");
+var vm                = require("vm");
 var EmailBounceParser = require("../lib/index.js");
 
 /**************************************************************************
@@ -26,6 +27,57 @@ function loopTests(entries, testFn) {
       testFn(result, expected, entry);
     }
   });
+}
+
+// Beginnings of the patterns, so that hostile inputs reach every pattern
+const HOSTILE_PREFIXES = [
+  "", "The mail system", "The following address(es) failed:", "(in reply to ", "timed out while sending ",
+  "host ", "host a[1.1.1.1]:25: ", ": connect to ", "Name service error for name=", "RCPT TO:<",
+  "Message rejected by: ", "from ", "Generating server: ", "said: ", "said: 550 5.1.1 ", "550-'5.1.1 ",
+  "LMTP error after ", "LMTP error after a:<b>: 550 ", "remote server returned '",
+  "The response from the remote server was: ", "error: ", "<a@b> (expanded from <c>):", "<a>:",
+  "the following addresses had permanent fatal errors ", "there was a temporary problem delivering your message to ",
+  "the following message to <", "to the following addresses:", "your message wasn't delivered to ",
+  "your message to ", "a@b.c [mailto:", "user ", "account ", "domain name ", "mailbox "
+];
+
+// Characters repeated after the beginnings, to break patterns that are not linear
+const HOSTILE_UNITS = [
+  " ", "\n", " \n", "\n\n", "x", "x ", "1", "12", "5.1.1 ", "<", "<a", ">", "(", "()", ")", "[", "]",
+  ":", "'", "@", "a@", "\r\n", "\n    ", "<mailto:", "[mailto:", "> (", "> (expanded from <",
+  // Notice: the "m" flag also treats a lone "\r" and unicode separators as line starts
+  "\r", " \r", "<\t(\r", "x\r", "\u2028", "<\u2028"
+];
+
+// Inputs that open a pattern and never complete it, repeated on one line and on many lines
+function hostileInputs() {
+  const size = 32000;
+  const inputs = [];
+
+  HOSTILE_PREFIXES.forEach((prefix) => {
+    HOSTILE_UNITS.forEach((unit) => {
+      inputs.push(prefix + unit.repeat(Math.ceil(size / unit.length)));
+      inputs.push((prefix + unit).repeat(Math.ceil(size / (prefix + unit).length)));
+    });
+  });
+
+  return inputs;
+}
+
+function elapsed(run) {
+  const start = performance.now();
+
+  run();
+
+  return performance.now() - start;
+}
+
+function flattenRegexes(entry) {
+  if (entry instanceof RegExp) {
+    return [entry];
+  }
+
+  return Object.values(entry).flatMap(flattenRegexes);
 }
 
 function parseEmail(emailFile) {
@@ -257,6 +309,41 @@ module.exports = {
         );
       }
     );
+
+    test.done();
+  },
+
+  // Test: regexes stay linear
+  testRegexesStayLinear: function(test) {
+    // Linear patterns take ~1ms on these inputs; backtracking ones take seconds or never end
+    const inputs = hostileInputs();
+    const context = vm.createContext({});
+
+    flattenRegexes(parser.parser.__regexes).forEach((regex) => {
+      const worst = Math.max(...inputs.map((text) => {
+        Object.assign(context, { source: regex.source, flags: regex.flags, text });
+
+        // The vm timeout interrupts a regex stuck in backtracking, so the test fails instead of hanging
+        try {
+          return elapsed(() => vm.runInContext("text.match(new RegExp(source, flags))", context, { timeout: 1000 }));
+        } catch (error) {
+          return Infinity;
+        }
+      }));
+
+      test.ok(worst < 100, `${worst.toFixed(0)}ms for ${regex.source}`);
+    });
+
+    test.done();
+  },
+
+  // Test: parser stays linear
+  testParserStaysLinear: function(test) {
+    hostileInputs().forEach((text) => {
+      const duration = elapsed(() => parser.read(text));
+
+      test.ok(duration < 1000, `${duration.toFixed(0)}ms on ${JSON.stringify(text.slice(0, 40))}`);
+    });
 
     test.done();
   }
