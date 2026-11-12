@@ -18,23 +18,10 @@
   },
   "scripts": {
     "unit": "nodeunit ./test/index.js",
-    "unit:regexp": "EMAIL_BOUNCE_PARSER_DISABLE_RE2=1 npm run unit",
-    "test": "npm run unit && npm run unit:regexp"
+    "test": "npm run unit"
   },
   "devDependencies": {
-    "nodeunit-x": "0.15.0",
-    "re2": "1.27.0"
-  },
-  "peerDependencies": {
-    "re2": "1.x"
-  },
-  "peerDependenciesMeta": {
-    "re2": {
-      "optional": true
-    }
-  },
-  "allowScripts": {
-    "re2@1.27.0": true
+    "nodeunit-x": "0.15.0"
   },
   "keywords": [
     "parser",
