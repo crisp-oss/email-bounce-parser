@@ -1,7 +1,7 @@
 Changelog
 =========
 
-## Unreleased
+## v2.0.0
 
 - Drop re2: all regexes are now linear and ReDoS-safe on native `RegExp`.
 - Remove the `re2` optional peer dependency and the `unit:regexp` test script.
